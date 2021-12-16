@@ -4,12 +4,10 @@ export default styled.div`
   // display: flex;
   justify-content: center;
   align-items: center;
-  
-  height: 620px;
+  height: 100vmin;
   width: 100%;
-  border-radius:8px;
-  // background-color: wheat;
+  border-radius:1vmin;
   color: #fff;
-  margin: 0 15px;
+  margin: 0 3vmin;
   font-size: 4em;
 `;

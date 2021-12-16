@@ -14,7 +14,7 @@ import $ from 'jquery';
 const Home = () => {
 // render(){
   
-
+    const [isMobile, setIsMobile] = useState(true);
     const particlesInit = (main) => {
         console.log(main);
     
@@ -24,7 +24,12 @@ const Home = () => {
       const particlesLoaded = (container) => {
         console.log(container);
       };
-      
+      // const menuBtn = document.querySelector('.menu-btn')
+      // const navlinks = document.querySelector('.menu')
+
+      // menuBtn.addEventListener('click', ()=>{
+      //   navlinks.classList.toggle('mobile-menu')
+      // })
       
 
 
@@ -35,7 +40,7 @@ return(
 
 
 
-<div>
+
 {/* <div class="particles"> */}
 
 <Particles
@@ -140,11 +145,10 @@ We build software solution <br/>that move you forward </p>
 </div> */}
 
 
-<nav class="navbar">
+{/* <nav class="navbar">
 <div class="max-width">
-{/* <div class="logo"><a href="#">Logo</a></div> */}
 <div class="logo"><a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a></div>
-<ul class="menu">
+<ul class={isMobile ? "menu-mobile" : "menu"}>
 <li><a href="/Service" class="menu-btn">Services</a></li>
 <li><a href="/technology" class="menu-btn">Technology</a></li>
 <li><a href="/about" class="menu-btn">About Us</a></li>
@@ -152,9 +156,48 @@ We build software solution <br/>that move you forward </p>
 <li><a href="/projects" class="menu-btn">Projects</a></li>
 
 </ul>
+<button className="mobile-menu-icon">
+{isMobile ? (
+  <i className="fas fa-times"></i>
+) : (
+  <i className="fas fa-bars"></i>
+)}
+</button>
 </div>
-</nav>
+</nav> */}
 {/* <!-- home section start --> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <nav>
+  <input type="checkbox" id="check"/>
+  <label for = "check" class="checkbtn">
+    <img src="assets/images/navbtn.png" class="navbtn"/>
+  </label>
+  <img src="assets/images/shellcode.jpg" class="logo"/>
+  <ul>
+    <li><a href="/service">Services</a></li>
+    <li><a href="/technology">Technology</a></li>
+    <li><a href="/about">About Us</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/projects">Projects</a></li>
+  </ul>
+</nav> */}
+
+
+<div class="remove">
+
 <section class="home" id="">
 <div class="max-width" >
 <div class="home-content">
@@ -193,12 +236,14 @@ We build software solution <br/>that move you forward </p>
 
 {/* <!-- about section start --> */}
 <section class="about" id="">
-<div class="max-width" >
-{/* <!-- <h2 class="title">About me</h2> --> */}
+<div class="text">Services<br/><span>We</span> Provide</div>
+<div class="max-width1" >
+
 <div class="about-content">
 
+
 <div class=" right">
-<div class="text">Services<br/><span>We</span> Provide</div>
+
 <h3> App Development</h3>
 <p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
 </p>
@@ -214,7 +259,7 @@ We build software solution <br/>that move you forward </p>
 
 {/* <!-- web --> */}
 
-<div class="max-width">
+<div class="max-width1">
 
 <div class="about-content">
 
@@ -232,7 +277,7 @@ We build software solution <br/>that move you forward </p>
 
 {/* <!-- designing --> */}
 
-<div class="max-width">
+<div class="max-width1">
 {/* <!-- <h2 class="title">About me</h2> --> */}
 <div class="about-content">
 
@@ -250,7 +295,7 @@ We build software solution <br/>that move you forward </p>
 
 {/* <!-- Optimization --> */}
 
-<div class="max-width">
+<div class="max-width1">
 <div class="about-content">
 <div class=" left">
 <img src="assets/images/1.png" alt="1"/>
@@ -285,7 +330,6 @@ We build software solution <br/>that move you forward </p>
 <div class="serv-content">
 <div class="card">
 <div class="box">
-<i class="fas fa-paint-brush"></i>
 
 <p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion.</p>
 <img src="assets/images/white.png" alt=""/>
@@ -295,7 +339,7 @@ We build software solution <br/>that move you forward </p>
 </div>
 <div class="card">
 <div class="box">
-<i class="fas fa-chart-line"></i>
+
 <p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion.</p>
 <img src="assets/images/white.png" alt=""/>
 <div class="text">John Peter</div>
@@ -304,7 +348,6 @@ We build software solution <br/>that move you forward </p>
 </div>
 <div class="card">
 <div class="box">
-<i class="fas fa-code"></i>
 <p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion.</p>
 <img src="assets/images/white.png" alt=""/>
 <div class="text">John Peter</div>
@@ -350,26 +393,22 @@ We build software solution <br/>that move you forward </p>
 </div>
 
 
-
-
 {/* <!-- contact --> */}
 
 {/* <!-- contact section start --> */}
 
-<div class="max-width">
+<div class="max-width1">
 <div class="contact-content">
 <div class="column left">
 
-<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals 
-<br/><br/>Our contact details</p>
-<p></p>
-<div class="head">987654321</div>
-<div class="head">abc@gmail.com</div>
+<span>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals 
+<br/><br/>Our contact details</span>
+<div class="head">987654321<br/>abc@gmail.com</div>
 <div class="icons">
 </div>
 </div>
-<div class="column right">
 
+<div class="column right">
 <form action="#">
 <div class="fields">
 <div class="field name">
@@ -389,7 +428,7 @@ We build software solution <br/>that move you forward </p>
 </div>
 
 <div class="field textarea">
-<textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+<textarea placeholder="Message.." required></textarea>
 </div>
 <div class="button-area">
 <button type="submit">Send</button>
@@ -409,7 +448,9 @@ We build software solution <br/>that move you forward </p>
 <div class="container">
 <div class="row">
 <div class="footer-col">
-<a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a>
+<div className="circl">
+<a href="/"><img src="assets/images/shellcode2.png" alt=""/></a>
+</div>
 <ul>
 <li><a href="#">About ShellCode</a></li>
 <li><a href="#"><br/>Est. Date</a></li>

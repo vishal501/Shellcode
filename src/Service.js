@@ -1,6 +1,8 @@
 import React from "react";
 import Particles from "react-tsparticles";
-
+import {Link} from "react-router-dom";
+import { Switch } from "@material-ui/core";
+// import Devops from "./Services/Devops"
 const Service = () => {
     const particlesInit = (main) => {
         console.log(main);
@@ -33,7 +35,7 @@ To emote is to express. Everything we do elicits a profound response from our cl
 </div>
 </section> */}
 
-<nav class="navbar">
+{/* <nav class="navbar">
 <div class="max-width">
 <div class="logo"><a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a></div>
 <ul class="menu">
@@ -45,10 +47,7 @@ To emote is to express. Everything we do elicits a profound response from our cl
 
 </ul>
 </div>
-</nav>
-
-<section class="about1" id="">
-<div class="particles">
+</nav> */}
 <Particles
       id="tsparticles"
       init={particlesInit}
@@ -131,6 +130,11 @@ To emote is to express. Everything we do elicits a profound response from our cl
         detectRetina: true,
       }}
     />
+
+
+<section class="about1" id="">
+<div class="particles">
+
 </div>
 <div class="max-width" >
 {/* <!-- <h2 class="title">About me</h2> --> */}
@@ -138,9 +142,10 @@ To emote is to express. Everything we do elicits a profound response from our cl
 
 <div class=" right">
 <div class="text">Our<br/>Services</div>
-<h3>An enthusiastic team delivering beautiful results.</h3>
-<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
-</p>
+<h3>An enthusiastic team delivering beautiful results.<br/>
+<span>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.
+</span>
+</h3>
 <a href="#teams">Get in Touch</a>
 </div>
 <div class=" left">
@@ -154,16 +159,17 @@ To emote is to express. Everything we do elicits a profound response from our cl
 {/* Dgital Marketing */}
 
 <section class="about2" id="">
-<div class="max-width" >
+<div class="max-width1" >
 {/* <!-- <h2 class="title">About me</h2> --> */}
 <div class="about-content">
 
 <div class=" right">
 <div class="text">DEVOPS</div>
-<h3>THE BEST DEVOPS CONSULTING COMPANY IN MUMBAI</h3>
-<p>With our DevOps Consulting Services, construct a strong base for your software development requirements and get the best results. ShellCode Solutions offers DevOps Services to enterprises in need of a multi-functional skill-based team capable of pulling off software development from start to finish.<br/>
-</p>
-<a href="#teams">Learn More</a>
+<h3>THE BEST DEVOPS CONSULTING COMPANY IN MUMBAI<br/>
+<span>With our DevOps Consulting Services, construct a strong base for your software development requirements and get the best results. ShellCode Solutions offers DevOps Services to enterprises in need of a multi-functional skill-based team capable of pulling off software development from start to finish.
+</span></h3><br/>
+<a href="/devops">Learn More</a>
+
 </div>
 <div class=" left">
 <img src="assets/images/1.png" alt="1"/>
@@ -177,7 +183,7 @@ To emote is to express. Everything we do elicits a profound response from our cl
 
 
 <section class="about2" id="">
-<div class="max-width" >
+<div class="max-width1" >
 {/* <!-- <h2 class="title">About me</h2> --> */}
 <div class="about-content">
 
@@ -186,13 +192,13 @@ To emote is to express. Everything we do elicits a profound response from our cl
 </div>
 
 <div class=" right">
-<div class="text">MOBILE APP DEVELOPMENT</div>
-<h3>We will realize your dream into reality!</h3>
-<p>We at ShellCode Solutions, the best Mobile Application Development Company in Mumbai, offer you a world-class experience in the form of the app best suited for your needs. We understand that an app defines your brand and customize your app accordingly.<br/>
+<div class="text">Mobile App Development</div>
+<h3>We will realize your dream into reality!<br/>
+<span>We at ShellCode Solutions, the best Mobile Application Development Company in Mumbai, offer you a world-class experience in the form of the app best suited for your needs. We understand that an app defines your brand and customize your app accordingly.
 Get your dream app!<br/>
 We make your hustle hassle-free!<br/>
-</p>
-<a href="#teams">Learn More</a>
+</span></h3>
+<a href="/mobile">Learn More</a>
 </div>
 
 </div>
@@ -203,18 +209,18 @@ We make your hustle hassle-free!<br/>
 
 
 <section class="about2" id="">
-<div class="max-width" >
+<div class="max-width1" >
 {/* <!-- <h2 class="title">About me</h2> --> */}
 <div class="about-content">
 
 <div class=" right">
 <div class="text">Website Development</div>
-<h3>Best Website Development for your Brand</h3>
-<p>ShellCode Solutions, the best Website Development Company in Mumbai, is here for your every need. We create modern and sophisticated websites with engaging UI that keeps your consumers engaged and hooked. Our services come at pocket-friendly prices and are customizable as per your requirements. Ever heard a deal sound so good? Then what are you waiting for?
+<h3>Best Website Development for your Brand<br/>
+<span>ShellCode Solutions, the best Website Development Company in Mumbai, is here for your every need. We create modern and sophisticated websites with engaging UI that keeps your consumers engaged and hooked. Our services come at pocket-friendly prices and are customizable as per your requirements. Ever heard a deal sound so good? Then what are you waiting for?
 Get the website your brand deserves!<br/>
 We establish you in the online market!<br/>
-</p>
-<a href="#teams">Learn More</a>
+</span></h3>
+<a href="/website">Learn More</a>
 </div>
 <div class=" left">
 <img src="assets/images/1.png" alt="1"/>
@@ -225,7 +231,7 @@ We establish you in the online market!<br/>
 </section>
 
 <section class="about2" id="">
-<div class="max-width" >
+<div class="max-width1" >
 {/* <!-- <h2 class="title">About me</h2> --> */}
 <div class="about-content">
 
@@ -235,11 +241,10 @@ We establish you in the online market!<br/>
 
 <div class=" right">
 <div class="text">UX UI</div>
-<h3>Get An Efficient UI and UX</h3>
-<p>A lousy UI and UX can spell doom for your website. At ShellCode Solutions, the best UI UX developers in Mumbai, we ensure that such is not the case with what we deliver. Be it a user-friendly website or a sophisticated app, an efficient and attractive UI and UX is our priority. We only deliver the best!<br/>
-
-</p>
-<a href="#teams">Learn More</a>
+<h3>Get An Efficient UI and UX<br/>
+<span>A lousy UI and UX can spell doom for your website. At ShellCode Solutions, the best UI UX developers in Mumbai, we ensure that such is not the case with what we deliver. Be it a user-friendly website or a sophisticated app, an efficient and attractive UI and UX is our priority. We only deliver the best!<br/>
+</span></h3>
+<a href="/uxui">Learn More</a>
 </div>
 
 </div>
@@ -249,16 +254,16 @@ We establish you in the online market!<br/>
 
 
 <section class="about2" id="">
-<div class="max-width" >
+<div class="max-width1" >
 {/* <!-- <h2 class="title">About me</h2> --> */}
 <div class="about-content">
 
 <div class=" right">
 <div class="text">SOCIAL MEDIA MARKETING</div>
-<h3>Best social media marketing agency in Mumbai</h3>
-<p>You have found for yourself the best social media marketing agency in Mumbai, ShellCode Solutions. Needless to say, now you do not have to pick your head about Social Media Marketing techniques to improve your presence in the digital sphere. ShellCode Solutions will do that for you. Our analysts and planners will create a Marketing plan specifically for your brand and get unbelievable results!<br/>
-</p>
-<a href="#teams">Learn More</a>
+<h3>Best social media marketing agency in Mumbai<br/>
+<span>You have found for yourself the best social media marketing agency in Mumbai, ShellCode Solutions. Needless to say, now you do not have to pick your head about Social Media Marketing techniques to improve your presence in the digital sphere. ShellCode Solutions will do that for you. Our analysts and planners will create a Marketing plan specifically for your brand and get unbelievable results!<br/>
+</span></h3>
+<a href="/social">Learn More</a>
 </div>
 <div class=" left">
 <img src="assets/images/1.png" alt="1"/>
@@ -280,11 +285,11 @@ We establish you in the online market!<br/>
 
 <div class=" right">
 <div class="text">SEARCH ENGINE OPTIMIZATION</div>
-<h3>Best Search Engine Optimization agency in Mumbai</h3>
-<p>ShellCode Solutions, the best Search Engine Optimization agency in Mumbai, brings to you its Search Engine Optimization services on a pallet. SEO attracts searchers to your platform via search engine results that are organic and help to increase your brand awareness amongst users. We take over the responsibility for establishing your brand value by employing efficient Search Engine Optimization techniques.<br/>
+<h3>Best Search Engine Optimization agency in Mumbai<br/>
+<span>ShellCode Solutions, the best Search Engine Optimization agency in Mumbai, brings to you its Search Engine Optimization services on a pallet. SEO attracts searchers to your platform via search engine results that are organic and help to increase your brand awareness amongst users. We take over the responsibility for establishing your brand value by employing efficient Search Engine Optimization techniques.<br/>
 
-</p>
-<a href="#teams">Learn More</a>
+</span></h3>
+<a href="/seo">Learn More</a>
 </div>
 
 </div>
@@ -326,8 +331,9 @@ We establish you in the online market!<br/>
     <input type="checkbox" id="terms"/>
     <label for="terms"> Terms and Condtions</label>
     </div>
-
+    <div class="form group">
     <input type="submit" class="btn" value="Submit"/>
+    </div>
 
 
 </form>
@@ -341,7 +347,9 @@ We establish you in the online market!<br/>
 <div class="container">
 <div class="row">
 <div class="footer-col">
-<a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a>
+<div className="circl">
+<a href="/"><img src="assets/images/shellcode2.png" alt=""/></a>
+</div>
 <ul>
 <li><a href="#"><br/>About ShellCode</a></li>
 <li><a href="#"><br/>Est. Date</a></li>

@@ -1,5 +1,5 @@
 // import React, { useEffect } from "react";
-import { Tabs, Tab, AppBar } from '@material-ui/core';
+import { Tabs, Tab, AppBar, makeStyles } from '@material-ui/core';
 import Particles from "react-tsparticles";
 import React from "react";
 import ReactDOM from "react-dom";
@@ -20,12 +20,15 @@ const About = () => {
       const particlesLoaded = (container) => {
         console.log(container);
       };
+    
+    
+    const classes = useStyles()
     const [value,setValue]=React.useState(0)
-    const handleTabs=(e,val)=>{
+    const handleChange=(e,val)=>{
         console.warn(val)
         setValue(val)
     }
-
+  
       
         
         return (
@@ -115,7 +118,7 @@ const About = () => {
       }}
     />
 </div>
-<nav class="navbar">
+{/* <nav class="navbar">
 <div class="max-width">
 <div class="logo"><a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a></div>
 <ul class="menu">
@@ -127,7 +130,7 @@ const About = () => {
 
 </ul>
 </div>
-</nav>
+</nav> */}
 
 
 <section class="about1" id="">
@@ -137,9 +140,10 @@ const About = () => {
 
 <div class=" right">
 <div class="text">About<br/>ShellCode</div>
-<h3>An enthusiastic team delivering beautiful results.</h3>
-<p>ShellCode Solutions is the best Software Development Company in Mumbai, offering scalable IT services across the globe. Our highly skilled developers make efficient use of state-of-the-art technologies and create robust websites and applications. We help small brands carve their path to success and help big brands maintain popularity via digital marketing. Our motto is to make you grow with us, and we aim to achieve it someday.<br/>
-</p>
+<h3>An enthusiastic team delivering beautiful results.<br/>
+<span>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.
+</span>
+</h3>
 <a href="#teams">Get in Touch</a>
 </div>
 <div class=" left">
@@ -148,15 +152,19 @@ const About = () => {
 </div>
 </div>
 </section>
+
+
             <div class="tab-box">
                 <h1>Meet Our Team</h1>
                 {/* <AppBar position="static"> */}
-                    <Tabs value={value} onChange={handleTabs}>
-                        <Tab label="Leadership"/>
-                        <Tab label="Accounts "/>
-                        <Tab label="Creative "/>
-                        <Tab label="Marketing "/>
-                        <Tab label="Developers "/>
+                    <Tabs value={value} onChange={handleChange} variant="scrollable"
+          scrollButtons="auto" classes={{indicator: classes.customStyleOnActiveTab}}
+            aria-label="some text">
+              <Tab label={<span className={ value === 0 ? classes.activeTab : classes.customStyleOnTab}>Leadership</span>}/>
+                        <Tab label={<span className={ value === 1 ? classes.activeTab : classes.customStyleOnTab}>Accounts</span>}/>
+                        <Tab label={<span className={ value === 2 ? classes.activeTab : classes.customStyleOnTab}>Creative</span>}/>
+                        <Tab label={<span className={ value === 3 ? classes.activeTab : classes.customStyleOnTab}>Marketing</span>}/>
+                        <Tab label={<span className={ value === 4 ? classes.activeTab : classes.customStyleOnTab}>Developers</span>}/>
                     </Tabs>
                 {/* </AppBar> */}
                 <TabPanel value={value} index={0} >
@@ -166,7 +174,7 @@ const About = () => {
                 <div class="left">
                 <img src="assets/images/white.png" alt=""/>
                 
-                <p>Shivam <br/>Kumar Verma</p>
+                <h4>Shivam <br/>Kumar Verma</h4>
                 <a href="#teams">Bio</a>
                 
                 </div>
@@ -175,7 +183,7 @@ const About = () => {
                 <div class="right">
                 <img src="assets/images/white.png" alt=""/>
                 {/* <div class="image-con"> */}
-                <p>Shivam <br/>Kumar Verma</p>
+                <h4>Shivam <br/>Kumar Verma</h4>
                 <a href="#teams">Bio</a>
                 
                 </div>
@@ -191,7 +199,7 @@ const About = () => {
                 <div class="left">
                 <img src="assets/images/white.png" alt=""/>
                 
-                <p>Accounts <br/>Kumar Verma</p>
+                <h4>Shivam <br/>Kumar Verma</h4>
                 <a href="#teams">Bio</a>
                 
                 </div>
@@ -200,7 +208,7 @@ const About = () => {
                 <div class="right">
                 <img src="assets/images/white.png" alt=""/>
                 {/* <div class="image-con"> */}
-                <p>Accounts <br/>Kumar Verma</p>
+                <h4>Shivam <br/>Kumar Verma</h4>
                 <a href="#teams">Bio</a>
                 
                 </div>
@@ -215,7 +223,7 @@ const About = () => {
                 <div class="left">
                 <img src="assets/images/white.png" alt=""/>
                 
-                <p>Creative <br/>Kumar Verma</p>
+                <h4>Shivam <br/>Kumar Verma</h4>
                 <a href="#teams">Bio</a>
                 
                 </div>
@@ -224,7 +232,7 @@ const About = () => {
                 <div class="right">
                 <img src="assets/images/white.png" alt=""/>
                 {/* <div class="image-con"> */}
-                <p>Creative <br/>Kumar Verma</p>
+                <h4>Shivam <br/>Kumar Verma</h4>
                 <a href="#teams">Bio</a>
                 
                 </div>
@@ -239,7 +247,7 @@ const About = () => {
                 <div class="left">
                 <img src="assets/images/white.png" alt=""/>
                 
-                <p>Marketing <br/>Kumar Verma</p>
+                <h4>Shivam <br/>Kumar Verma</h4>
                 <a href="#teams">Bio</a>
                 
                 </div>
@@ -248,7 +256,7 @@ const About = () => {
                 <div class="right">
                 <img src="assets/images/white.png" alt=""/>
                 {/* <div class="image-con"> */}
-                <p>Marketing <br/>Kumar Verma</p>
+                <h4>Shivam <br/>Kumar Verma</h4>
                 <a href="#teams">Bio</a>
                 
                 </div>
@@ -263,7 +271,7 @@ const About = () => {
                 <div class="left">
                 <img src="assets/images/white.png" alt=""/>
                 
-                <p>Developers <br/>Kumar Verma</p>
+                <h4>Shivam <br/>Kumar Verma</h4>
                 <a href="#teams">Bio</a>
                 
                 </div>
@@ -272,7 +280,7 @@ const About = () => {
                 <div class="right">
                 <img src="assets/images/white.png" alt=""/>
                 {/* <div class="image-con"> */}
-                <p>Developers <br/>Kumar Verma</p>
+                <h4>Shivam <br/>Kumar Verma</h4>
                 <a href="#teams">Bio</a>
                 
                 </div>
@@ -296,9 +304,9 @@ const About = () => {
 
 <div class=" right">
 <div class="text">Our Mission</div>
-<h3>An enthusiastic team delivering beautiful results.</h3>
-<p>We at ShellCode Solutions aim to conquer the digital world with our mission. Our mission is to create a digital platform for all businesses. If you are a small and thriving business, we are here for you. Our ambition is to guide you create your digital assets by helping you establish your brand in the digital market.<br/>
-</p>
+<h3>An enthusiastic team delivering beautiful results.<br/>
+<span>We at ShellCode Solutions aim to conquer the digital world with our mission. Our mission is to create a digital platform for all businesses. If you are a small and thriving business, we are here for you. Our ambition is to guide you create your digital assets by helping you establish your brand in the digital market.<br/>
+</span></h3>
 <a href="#teams">Learn More</a>
 </div>
 
@@ -317,8 +325,8 @@ const About = () => {
 <div class=" right">
 <div class="text">Our <br/>Achievements</div>
 
-<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results.<br/>
-</p>
+<h3><span>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results.<br/>
+</span></h3>
 </div>
 
 <div class=" left">
@@ -349,8 +357,8 @@ const About = () => {
 <div class=" right">
 <div class="text">Our Vision</div>
 <h3>An enthusiastic team delivering beautiful results.</h3>
-<p>We began this enterprise with a vision to help businesses grow. We aim to accomplish this by creating a digital identity for them. Our developers are dexterous and hard-working and add value to our team. We make use of top-notch technology to assist you in creating your digital presence. By ensuring our clients’ growth, we aim to lead the field of software development and have been inching closer towards our goal.<br/>
-</p>
+<h3><span>We began this enterprise with a vision to help businesses grow. We aim to accomplish this by creating a digital identity for them. Our developers are dexterous and hard-working and add value to our team. We make use of top-notch technology to assist you in creating your digital presence. By ensuring our clients’ growth, we aim to lead the field of software development and have been inching closer towards our goal.<br/>
+</span></h3>
 <a href="#teams">Learn More</a>
 </div>
 
@@ -377,7 +385,7 @@ const About = () => {
 <h3>Amount - The Future Of Digital Banking Technology</h3>
 <p>Websites & Digital Platforms</p>
 
-<a href="#teams">Learn More</a>
+
 </div>
 
 <div class=" right">
@@ -392,7 +400,7 @@ const About = () => {
 </div>
 
 </div>
-
+<a href="#teams">Learn More</a>
 </div>
 </section>
 
@@ -430,15 +438,13 @@ const About = () => {
 
 {/* <!-- contact section start --> */}
 
-<div class="max-width">
+<div class="max-width1">
 <div class="contact-content">
 <div class="column left">
 
-<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals 
-<br/><br/>Our contact details</p>
-<p></p>
-<div class="head">987654321</div>
-<div class="head">abc@gmail.com</div>
+<span>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals 
+<br/><br/>Our contact details</span>
+<div class="head">987654321<br/>abc@gmail.com</div>
 <div class="icons">
 </div>
 </div>
@@ -481,7 +487,9 @@ const About = () => {
 <div class="container">
 <div class="row">
 <div class="footer-col">
-<a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a>
+<div className="circl">
+<a href="/"><img src="assets/images/shellcode2.png" alt=""/></a>
+</div>
 <ul>
 <li><a href="#"><br/>About ShellCode</a></li>
 <li><a href="#"><br/>Est. Date</a></li>
@@ -526,6 +534,22 @@ const About = () => {
         );
 
 }
+const useStyles = makeStyles({
+  customStyleOnTab:{
+    fontSize:'2.4vmin',
+    fontWeight:'500',
+    // padding: '0 1vmin',
+    color:'black'
+  },
+  customStyleOnActiveTab:{
+    color:'red'
+  },
+  activeTab:{
+    fontSize:'2.6vmin',
+    fontWeight:'500',
+    color:'red'
+  }
+})
 
 function TabPanel(props){
 const {children, value, index}=props;

@@ -105,7 +105,7 @@ const Blog = () => {
       }}
     />
 </div>
-    <nav class="navbar">
+    {/* <nav class="navbar">
 <div class="max-width">
 <div class="logo"><a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a></div>
 <ul class="menu">
@@ -117,7 +117,7 @@ const Blog = () => {
 
 </ul>
 </div>
-</nav>
+</nav> */}
 
 
 <section class="about1" id="">
@@ -127,9 +127,10 @@ const Blog = () => {
 
 <div class=" right">
 <div class="text">Blog</div>
-<h3>An enthusiastic team delivering beautiful results.</h3>
-<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
-</p>
+<h3>An enthusiastic team delivering beautiful results.<br/>
+<span>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.
+</span>
+</h3>
 <a href="#teams">Get in Touch</a>
 </div>
 <div class=" left">
@@ -220,7 +221,7 @@ Get To Know Platform Advertising With Crite</p>
 <div class="tab-heading">
                 <h1>Heading</h1>
                 {/* <AppBar position="static"> */}
-                    <Tabs value={value} onChange={handleTabs}>
+                    <Tabs value={value} onChange={handleTabs} variant="scrollable" scrollButtons="auto">
                         <Tab label="All"/>
                         <Tab label="Blog "/>
                         <Tab label="Content marketing "/>
@@ -377,7 +378,9 @@ Get To Know Platform Advertising With Crite</p>
 <div class="container">
 <div class="row">
 <div class="footer-col">
-<a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a>
+<div className="circl">
+<a href="/"><img src="assets/images/shellcode2.png" alt=""/></a>
+</div>
 <ul>
 <li><a href="#"><br/>About ShellCode</a></li>
 <li><a href="#"><br/>Est. Date</a></li>

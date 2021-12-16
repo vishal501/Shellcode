@@ -18,7 +18,7 @@ const Projects = () => {
     const breakPoints = [
         
         { width: 1, itemsToShow: 1},
-        { width: 550, itemsToShow: 2 },
+        { width: 550, itemsToShow: 2},
         // { width: 768, itemsToShow: 3 },
         // { width: 1200, itemsToShow: 4 },
       ];
@@ -124,7 +124,7 @@ const Projects = () => {
 </div>
 
 
-<nav class="navbar">
+{/* <nav class="navbar">
 <div class="max-width">
 <div class="logo"><a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a></div>
 <ul class="menu">
@@ -136,7 +136,7 @@ const Projects = () => {
 
 </ul>
 </div>
-</nav>
+</nav> */}
 
 <section class="about1" id="">
 <div class="max-width" >
@@ -145,9 +145,10 @@ const Projects = () => {
 
 <div class=" right">
 <div class="text">Our Work</div>
-<h3>An enthusiastic team delivering beautiful results.</h3>
-<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
-</p>
+<h3>An enthusiastic team delivering beautiful results.<br/>
+<span>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.
+</span>
+</h3>
 <a href="#teams">Get in Touch</a>
 </div>
 
@@ -159,16 +160,21 @@ const Projects = () => {
 
 <section class="about7" id="">
 
-<div class="max-width" >
+<div class="max-width2" >
 
 <div class="cardview">
 <form>
 <div class="about-content">
 <div class=" left">
 <img src="assets/images/sample.jpeg" alt="1"/>
+<h3>An enthusiastic team delivering beautiful results.</h3>
+<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
+
+<br/>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
+</p>
 </div>
 
-<div class=" right">
+{/* <div class=" right">
 
 <h3>An enthusiastic team delivering beautiful results.</h3>
 <p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
@@ -176,7 +182,7 @@ const Projects = () => {
 <br/>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
 </p>
 
-</div>
+</div> */}
 
 </div>
 </form>
@@ -187,7 +193,7 @@ const Projects = () => {
 
 {/* <h1 style={{ textAlign: "center" }}>Example react</h1> */}
       <div className="App">
-        <Carousel breakPoints={breakPoints} >
+        <Carousel breakPoints={breakPoints}>
           <Item className="twoslide">
               <div className="col">
               <img src="assets/images/sample.jpeg"/>
@@ -252,7 +258,8 @@ const Projects = () => {
 <div class="tab-heading1">
                 
                 {/* <AppBar position="static"> */}
-                    <Tabs value={value} onChange={handleChange} classes={{indicator: classes.customStyleOnActiveTab}}
+                    <Tabs value={value} onChange={handleChange} variant="scrollable"
+          scrollButtons="auto" classes={{indicator: classes.customStyleOnActiveTab}}
             aria-label="some text" class="tabs1">
                         <Tab label={<span className={ value === 0 ? classes.activeTab : classes.customStyleOnTab}>All</span>}/>
                         <Tab label={<span className={ value === 1 ? classes.activeTab : classes.customStyleOnTab}>Website Design</span>}/>
@@ -394,7 +401,9 @@ const Projects = () => {
 <div class="container">
 <div class="row">
 <div class="footer-col">
-<a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a>
+<div className="circl">
+<a href="/"><img src="assets/images/shellcode2.png" alt=""/></a>
+</div>
 <ul>
 <li><a href="#"><br/>About ShellCode</a></li>
 <li><a href="#"><br/>Est. Date</a></li>
@@ -438,16 +447,17 @@ const Projects = () => {
 
 const useStyles = makeStyles({
     customStyleOnTab:{
-      fontSize:'18px',
+      fontSize:'2.8vmin',
       fontWeight:'600',
-      padding: '0 20px',
+      display: 'flex',
+      // padding: '0 1vmin',
       color:'black'
     },
     customStyleOnActiveTab:{
       color:'red'
     },
     activeTab:{
-      fontSize:'18px',
+      fontSize:'3vmin',
       fontWeight:'600',
       color:'red'
     }
