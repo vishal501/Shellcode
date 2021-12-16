@@ -204,7 +204,7 @@ We build software solution <br/>that move you forward </p>
 <div class=" right">
 <div class="text-2">YOU HAVE FOUND THE BEST MOBILE APP DEVELOPMENT COMPANY</div>
 <div class="text-3">If you need the best custom iOS or Android app for your brand, you have found the right fit! ShellCode Solutions will do that for you.</div>
-<a href="#teams">Book a Consultant</a>
+<a href="https://wa.me/+919876543210">Book a Consultant</a>
 </div>
 <div class=" left">
 <img src="assets/images/man.png" alt="1"/>
@@ -244,9 +244,9 @@ We build software solution <br/>that move you forward </p>
 
 <div class=" right">
 
-<h3> App Development</h3>
-<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
-</p>
+<h3> App Development<br/>
+<h5>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
+</h5></h3>
 </div>
 <div class=" left">
 <img src="assets/images/1.png" alt="1"/>
@@ -268,9 +268,9 @@ We build software solution <br/>that move you forward </p>
 </div>
 <div class=" right">
 {/* <!-- <div class="text">Technologies<span class="typing-2"></span></div> --> */}
-<h3> Web Development</h3>
-<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
-</p>
+<h3> Web Development<br/>
+<h5>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
+</h5></h3>
 </div>
 </div>
 </div>
@@ -283,9 +283,9 @@ We build software solution <br/>that move you forward </p>
 
 <div class=" right">
 
-<h3> Designing</h3>
-<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
-</p>
+<h3> Designing
+<h5>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.</h5>
+</h3>
 </div>
 <div class=" left">
 <img src="assets/images/1.png" alt="1"/>
@@ -301,9 +301,9 @@ We build software solution <br/>that move you forward </p>
 <img src="assets/images/1.png" alt="1"/>
 </div>
 <div class=" right">
-<h3>Search Engine <br/> Optimization</h3>
-<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
-</p>
+<h3>Search Engine <br/> Optimization<br/>
+<h5>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.</h5>
+</h3>
 </div>
 </div>
 </div>
@@ -331,7 +331,9 @@ We build software solution <br/>that move you forward </p>
 <div class="card">
 <div class="box">
 
-<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion.</p>
+<h5>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion.
+
+</h5>
 <img src="assets/images/white.png" alt=""/>
 <div class="text">John Peter</div>
 <h4>Developer, UK, London</h4>
@@ -340,7 +342,7 @@ We build software solution <br/>that move you forward </p>
 <div class="card">
 <div class="box">
 
-<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion.</p>
+<h5>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion.</h5>
 <img src="assets/images/white.png" alt=""/>
 <div class="text">John Peter</div>
 <h4>Developer, UK, London</h4>
@@ -348,7 +350,7 @@ We build software solution <br/>that move you forward </p>
 </div>
 <div class="card">
 <div class="box">
-<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion.</p>
+<h5>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion.</h5>
 <img src="assets/images/white.png" alt=""/>
 <div class="text">John Peter</div>
 <h4>Developer, UK, London</h4>
@@ -448,9 +450,9 @@ We build software solution <br/>that move you forward </p>
 <div class="container">
 <div class="row">
 <div class="footer-col">
-<div className="circl">
-<a href="/"><img src="assets/images/shellcode2.png" alt=""/></a>
-</div>
+{/* <div className="circl"> */}
+<a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a>
+{/* </div> */}
 <ul>
 <li><a href="#">About ShellCode</a></li>
 <li><a href="#"><br/>Est. Date</a></li>
@@ -466,21 +468,21 @@ We build software solution <br/>that move you forward </p>
 <div class="footer-col">
 <h4>Explore</h4>
 <ul>
-<li><a href="#">Services</a></li>
-<li><a href="#">Technology</a></li>
-<li><a href="#">Projects</a></li>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Blog</a></li>
-<li><a href="#">Contact Us</a></li>
+<li><a href="/service">Services</a></li>
+<li><a href="/technology">Technology</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/about">About Us</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="https://wa.me/+919876543210">Contact Us</a></li>
 </ul>
 </div>
 <div class="footer-col">
 <h4>Follow Us</h4>
 <ul>
-<li><a href="#">Instagram</a></li>
-<li><a href="#">Linkediin</a></li>
-<li><a href="#">Twitter</a></li>
-<li><a href="#">Facebook</a></li>
+<li><a href="https://www.instagram.com/">Instagram</a></li>
+<li><a href="https://www.linkedin.com/">Linkediin</a></li>
+<li><a href="https://twitter.com/login?lang=en">Twitter</a></li>
+<li><a href="https://www.facebook.com/">Facebook</a></li>
 </ul>
 </div>
 </div>

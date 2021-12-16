@@ -348,7 +348,7 @@ We establish you in the online market!<br/>
 <div class="row">
 <div class="footer-col">
 <div className="circl">
-<a href="/"><img src="assets/images/shellcode2.png" alt=""/></a>
+<a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a>
 </div>
 <ul>
 <li><a href="#"><br/>About ShellCode</a></li>
@@ -365,21 +365,21 @@ We establish you in the online market!<br/>
 <div class="footer-col">
 <h4>Explore</h4>
 <ul>
-<li><a href="#">Services</a></li>
-<li><a href="#">Technology</a></li>
-<li><a href="#">Projects</a></li>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Blog</a></li>
-<li><a href="#">Contact Us</a></li>
+<li><a href="/service">Services</a></li>
+<li><a href="/technology">Technology</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/about">About Us</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="https://wa.me/+919876543210">Contact Us</a></li>
 </ul>
 </div>
 <div class="footer-col">
 <h4>Follow Us</h4>
 <ul>
-<li><a href="#">Instagram</a></li>
-<li><a href="#">Linkediin</a></li>
-<li><a href="#">Twitter</a></li>
-<li><a href="#">Facebook</a></li>
+<li><a href="https://www.instagram.com/">Instagram</a></li>
+<li><a href="https://www.linkedin.com/">Linkediin</a></li>
+<li><a href="https://twitter.com/login?lang=en">Twitter</a></li>
+<li><a href="https://www.facebook.com/">Facebook</a></li>
 </ul>
 </div>
 </div>

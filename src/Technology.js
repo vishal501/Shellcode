@@ -126,7 +126,7 @@ const Technology = () => {
 <span>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.
 </span>
 </h3>
-<a href="#teams">Get in Touch</a>
+<a href="https://wa.me/+919876543210">Get in Touch</a>
 </div>
 <div class=" left">
 <img src="assets/images/1.png" alt="1"/>
@@ -229,10 +229,10 @@ Dexterous development methodology<br/>
 Source Code Authorization<br/>
 </span></h3>
 <div class="javabtn"> 
-<a href="#teams">Java </a>
+{/* <a href="#teams">Java </a>
 <a href="#teams">Java </a>
 <span>
-<a href="#teams">Angular</a></span>
+<a href="#teams">Angular</a></span> */}
 </div>
 <a href="php">Learn More</a>
 </div>
@@ -392,10 +392,10 @@ Dexterous development methodology<br/>
 Source Code Authorization<br/>
 </span></h3>
 <div class="javabtn"> 
-<a href="#teams">Java </a>
+{/* <a href="#teams">Java </a>
 <a href="#teams">Java </a>
 <span>
-<a href="#teams">Angular</a></span>
+<a href="#teams">Angular</a></span> */}
 </div>
 <a href="/vuejs">Learn More</a>
 </div>
@@ -645,7 +645,7 @@ Source Code Authorization<br/>
 <div class="row">
 <div class="footer-col">
 <div className="circl">
-<a href="/"><img src="assets/images/shellcode2.png" alt=""/></a>
+<a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a>
 </div>
 <ul>
 <li><a href="#"><br/>About ShellCode</a></li>
@@ -662,21 +662,21 @@ Source Code Authorization<br/>
 <div class="footer-col">
 <h4>Explore</h4>
 <ul>
-<li><a href="#">Services</a></li>
-<li><a href="#">Technology</a></li>
-<li><a href="#">Projects</a></li>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Blog</a></li>
-<li><a href="#">Contact Us</a></li>
+<li><a href="/service">Services</a></li>
+<li><a href="/technology">Technology</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/about">About Us</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="https://wa.me/+919876543210">Contact Us</a></li>
 </ul>
 </div>
 <div class="footer-col">
 <h4>Follow Us</h4>
 <ul>
-<li><a href="#">Instagram</a></li>
-<li><a href="#">Linkediin</a></li>
-<li><a href="#">Twitter</a></li>
-<li><a href="#">Facebook</a></li>
+<li><a href="https://www.instagram.com/">Instagram</a></li>
+<li><a href="https://www.linkedin.com/">Linkediin</a></li>
+<li><a href="https://twitter.com/login?lang=en">Twitter</a></li>
+<li><a href="https://www.facebook.com/">Facebook</a></li>
 </ul>
 </div>
 </div>

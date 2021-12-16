@@ -7,8 +7,9 @@ const Navbar = () => {
     const [isMobile, setIsMobile] = useState(false);
     return (
         <nav className="navbar">
-            <div className="circle">
-            <a href="\" class="logoind"><img src = "assets/images/shellcode2.png"/></a> </div>
+            {/* <div className="circle"> */}
+            <a href="\" class="logoind"><img src = "assets/images/shellcode.jpg"/></a> 
+            {/* </div> */}
             <ul className={isMobile ? "nav-links-mobile" : "nav-links"}
             onClick={() => setIsMobile(false)}>
                 {/* <Link to ="/services" className="services">

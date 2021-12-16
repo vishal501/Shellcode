@@ -6,9 +6,13 @@ import Technology from './Technology';
 import About from './About';
 import Blog from './Blog';
 import Projects from './Projects';
+
 import Devops from './Services/Devops';
 import Mobile from './Services/Mobile';
 import Website from './Services/Website';
+import Social from './Services/Social';
+import UXUI from './Services/UXUI';
+import SEO from './Services/SEO';
 
 import Python from './Technology/Backend/Python';
 import Net from './Technology/Backend/Net';
@@ -65,6 +69,9 @@ function App() {
         <Route path="/devops" component={Devops} exact/>
         <Route path="/mobile" component={Mobile} exact/>
         <Route path="/website" component={Website} exact/>
+        <Route path="/social" component={Social} exact/>
+        <Route path="/uxui" component={UXUI} exact/>
+        <Route path="/seo" component={SEO} exact/>
 
         <Route path="/python" component={Python} exact/>
         <Route path="/.net" component={Net} exact/>

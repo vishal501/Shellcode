@@ -1,6 +1,6 @@
 import React from "react";
 import Particles from "react-tsparticles";
-import { Tabs, Tab, AppBar } from '@material-ui/core';
+import { Tabs, Tab, AppBar, makeStyles } from '@material-ui/core';
 
 const Blog = () => {
     const particlesInit = (main) => {
@@ -13,11 +13,13 @@ const Blog = () => {
         console.log(container);
       };
 
-    const [value,setValue]=React.useState(0)
-    const handleTabs=(e,val)=>{
-        console.warn(val)
-        setValue(val)
-    }
+      const classes = useStyles()
+      const [value,setValue]=React.useState(0)
+      const handleChange=(e,val)=>{
+          console.warn(val)
+          setValue(val)
+      }
+  
     return <>
 
 
@@ -131,7 +133,7 @@ const Blog = () => {
 <span>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.
 </span>
 </h3>
-<a href="#teams">Get in Touch</a>
+<a href="https://wa.me/+919876543210">Get in Touch</a>
 </div>
 <div class=" left">
 <img src="assets/images/1.png" alt="1"/>
@@ -147,22 +149,22 @@ const Blog = () => {
 <div class="max-width" >
 {/* <!-- <h2 class="title">About me</h2> --> */}
 <div class="cardview">
-<form>
+{/* <form> */}
 <div class="about-content">
 <div class=" left">
 <img src="assets/images/sample.jpeg" alt="1"/>
 </div>
 
 <div class=" right">
-{/* <div class="text">Digital Marketing</div> */}
+
 <p><span>New</span> Other</p>
-<h3>Agency Growth Event: Merging Is Not The Only Way</h3>
+<h3>Agency Growth Event: Merging Is Not The Only Way</h3><br/>
 
 <a href="#teams">Learn More</a>
 </div>
 
 </div>
-</form>
+{/* </form> */}
 </div>
 </div>
 </section>
@@ -172,46 +174,54 @@ const Blog = () => {
 {/* <div class ="imagebox">
     <h2>Top Stories</h2> 
 </div> */}
-<div class="about-content">
 <h2>Top Stories</h2>
-<div class=" left">
-<main>
+
+<div class="about-content">
+
+
+<div class="horizontal-slide">
+<div class="ro1">
+{/* <main> */}
 <div class="imageleft">
 <img src="assets/images/sample.jpeg" alt="1"/>
-<p>Get To Know Platform Advertising With Criteo</p>
+<h5>Get To Know Platform Advertising With Criteo</h5>
 </div>
 <div class="imageleft">
 <img src="assets/images/sample.jpeg" alt="1"/>
-<p>Get To Know Platform Advertising With Criteo</p>
+<h5>Get To Know Platform Advertising With Criteo</h5>
+</div>
+
+
+<div class="imageleft">
+<img src="assets/images/sample.jpeg" alt="1"/>
+<h5>Get To Know Platform Advertising With Criteo</h5>
+</div>
+
+<div class="imageleft">
+<img src="assets/images/sample.jpeg" alt="1"/>
+<h5>Get To Know Platform Advertising With Criteo</h5>
+</div>
+</div>
+</div>
+<div class="right">
+<div class="imageright">
+<form class="img-box">
+<p><span>New</span>Other <br/>
+Get To Know Platform Advertising With Crite</p>
+<img src="assets/images/sample.jpeg" alt="1"/>
+</form>
 </div>
 <div class="imageright">
 <form class="img-box">
-<p><span>New</span> Other <br/>
+<p><span>New</span>Other <br/>
 Get To Know Platform Advertising With Crite</p>
-
-<img src="assets/images/sample.jpeg" alt="1"/>
-
-</form>
-</div>
-<div class="imageleft">
-<img src="assets/images/sample.jpeg" alt="1"/>
-<p>Get To Know Platform Advertising With Criteo</p>
-</div>
-<div class="imageleft">
-<img src="assets/images/sample.jpeg" alt="1"/>
-<p>Get To Know Platform Advertising With Criteo</p>
-</div>
-<div class="imageright">
-<form class="img-box">
-<p><span>New</span> Other <br/>
-Get To Know Platform Advertising With Crite</p>
-
 <img src="assets/images/sample.jpeg" alt="1"/>
 </form>
 </div>
-</main>
-
 </div>
+
+{/* </main> */}
+
 
 </div>
 </section>
@@ -221,54 +231,58 @@ Get To Know Platform Advertising With Crite</p>
 <div class="tab-heading">
                 <h1>Heading</h1>
                 {/* <AppBar position="static"> */}
-                    <Tabs value={value} onChange={handleTabs} variant="scrollable" scrollButtons="auto">
-                        <Tab label="All"/>
-                        <Tab label="Blog "/>
-                        <Tab label="Content marketing "/>
-                        <Tab label="Ecommerce "/>
-                        <Tab label="Email Marketing "/>
-                        <Tab label="Events"/>
-                        <Tab label="SEO"/>
+                    <Tabs value={value} onChange={handleChange} variant="scrollable"
+          scrollButtons="auto" classes={{indicator: classes.customStyleOnActiveTab}}
+            aria-label="some text" class="tabs1">
+              <Tab label={<span className={ value === 0 ? classes.activeTab : classes.customStyleOnTab}>All</span>}/>
+                        <Tab label={<span className={ value === 1 ? classes.activeTab : classes.customStyleOnTab}>Blog</span>}/>
+                        <Tab label={<span className={ value === 2 ? classes.activeTab : classes.customStyleOnTab}>Content marketing</span>}/>
+                        <Tab label={<span className={ value === 3 ? classes.activeTab : classes.customStyleOnTab}>Ecommerce</span>}/>
+                        <Tab label={<span className={ value === 4 ? classes.activeTab : classes.customStyleOnTab}>Email Marketing</span>}/>
+                        <Tab label={<span className={ value === 5 ? classes.activeTab : classes.customStyleOnTab}>Events</span>}/>
+                        
+                        {/* <Tab label="SEO"/> */}
                     </Tabs>
                 {/* </AppBar> */}
-<TabPanel value={value} index={0} >
-<div class="row">
-<main>
-<div class="column">
+<TabPanel value={value} index={0}>
+<div class="horizontal-slide">
+<div class="ro">
+{/* <main> */}
+<div class="col1">
 <img src="assets/images/sample.jpeg" alt="1"/>
-<p>Get To Know Platform Advertising With Criteo</p>
+<h5>Get To Know Platform Advertising With Criteo</h5>
 </div>
-<div class="column">
+<div class="col1">
 <img src="assets/images/sample.jpeg" alt="1"/>
-<p>Get To Know Platform Advertising With Criteo</p>
+<h5>Get To Know Platform Advertising With Criteo</h5>
 </div>
-<div class="column">
+<div class="col1">
 <img src="assets/images/sample.jpeg" alt="1"/>
-<p>Get To Know Platform Advertising With Criteo</p>
+<h5>Get To Know Platform Advertising With Criteo</h5>
 </div>
-<div class="column">
+<div class="col1">
 <img src="assets/images/sample.jpeg" alt="1"/>
-<p>Get To Know Platform Advertising With Criteo</p>
+<h5>Get To Know Platform Advertising With Criteo</h5>
 </div>
-<div class="column">
+<div class="col1">
 <img src="assets/images/sample.jpeg" alt="1"/>
-<p>Get To Know Platform Advertising With Criteo</p>
+<h5>Get To Know Platform Advertising With Criteo</h5>
 </div>
-<div class="column">
+<div class="col1">
 <img src="assets/images/sample.jpeg" alt="1"/>
-<p>Get To Know Platform Advertising With Criteo</p>
-</div>
-
-<div class="column">
-<img src="assets/images/sample.jpeg" alt="1"/>
-<p>Get To Know Platform Advertising With Criteo</p>
-</div>
-<div class="column">
-<img src="assets/images/sample.jpeg" alt="1"/>
-<p>Get To Know Platform Advertising With Criteo</p>
+<h5>Get To Know Platform Advertising With Criteo</h5>
 </div>
 
-</main>
+<div class="col1">
+<img src="assets/images/sample.jpeg" alt="1"/>
+<h5>Get To Know Platform Advertising With Criteo</h5>
+</div>
+<div class="col1">
+<img src="assets/images/sample.jpeg" alt="1"/>
+<h5>Get To Know Platform Advertising With Criteo</h5>
+</div>
+</div>
+{/* </main> */}
 
 </div>
                 </TabPanel>
@@ -379,7 +393,7 @@ Get To Know Platform Advertising With Crite</p>
 <div class="row">
 <div class="footer-col">
 <div className="circl">
-<a href="/"><img src="assets/images/shellcode2.png" alt=""/></a>
+<a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a>
 </div>
 <ul>
 <li><a href="#"><br/>About ShellCode</a></li>
@@ -396,21 +410,21 @@ Get To Know Platform Advertising With Crite</p>
 <div class="footer-col">
 <h4>Explore</h4>
 <ul>
-<li><a href="#">Services</a></li>
-<li><a href="#">Technology</a></li>
-<li><a href="#">Projects</a></li>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Blog</a></li>
-<li><a href="#">Contact Us</a></li>
+<li><a href="/service">Services</a></li>
+<li><a href="/technology">Technology</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/about">About Us</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="https://wa.me/+919876543210">Contact Us</a></li>
 </ul>
 </div>
 <div class="footer-col">
 <h4>Follow Us</h4>
 <ul>
-<li><a href="#">Instagram</a></li>
-<li><a href="#">Linkediin</a></li>
-<li><a href="#">Twitter</a></li>
-<li><a href="#">Facebook</a></li>
+<li><a href="https://www.instagram.com/">Instagram</a></li>
+<li><a href="https://www.linkedin.com/">Linkediin</a></li>
+<li><a href="https://twitter.com/login?lang=en">Twitter</a></li>
+<li><a href="https://www.facebook.com/">Facebook</a></li>
 </ul>
 </div>
 </div>
@@ -419,6 +433,24 @@ Get To Know Platform Advertising With Crite</p>
 </footer>
     </>
 }
+
+const useStyles = makeStyles({
+  customStyleOnTab:{
+    fontSize:'2.8vmin',
+    fontWeight:'600',
+    display: 'flex',
+    // padding: '0 1vmin',
+    color:'black'
+  },
+  customStyleOnActiveTab:{
+    color:'red'
+  },
+  activeTab:{
+    fontSize:'3vmin',
+    fontWeight:'600',
+    color:'red'
+  }
+})
 
 function TabPanel(props){
     const {children, value, index}=props;
