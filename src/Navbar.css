@@ -83,8 +83,9 @@
         display: block;
         text-align: center;
         list-style: none;
-        background-color: crimson;
+        background-image: linear-gradient(to bottom right, rgb(148, 0, 0), rgb(228, 0, 0));
         cursor: pointer;
+        border-radius: 50%;
         left: 0;
         top: 232px;
         transition: all 0.5s ease-out;
