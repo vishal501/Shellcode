@@ -378,23 +378,31 @@ const About = () => {
    
 
 <div class=" left">
+<div class="projects-box">
 <img src="assets/images/sample.jpeg" alt="1"/>
 <h3>Amount - The Future Of Digital Banking Technology</h3>
 <p>Websites & Digital Platforms</p>
+</div>
+<div class="projects-box">
 <img src="assets/images/sample.jpeg" alt="1"/>
 <h3>Amount - The Future Of Digital Banking Technology</h3>
 <p>Websites & Digital Platforms</p>
-
-
 </div>
 
-<div class=" right">
+
+{/* </div> */}
+
+{/* <div class=" right"> */}
+<div class="projects-box">
 <img src="assets/images/sample.jpeg" alt="1"/>
 <h3>Amount - The Future Of Digital Banking Technology</h3>
 <p>Websites & Digital Platforms</p>
+</div>
+<div class="projects-box">
 <img src="assets/images/sample.jpeg" alt="1"/>
 <h3>Amount - The Future Of Digital Banking Technology</h3>
 <p>Websites & Digital Platforms</p>
+</div>
 
 
 </div>

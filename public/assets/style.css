@@ -14,6 +14,7 @@ body, html{
     overflow-x: hidden;
 }
 @media only screen and (max-width:800px){
+    /* update */
     /* .home .home-content a{
         display: block;
     } */
@@ -87,15 +88,15 @@ body, html{
     }
     .our .our-content .left{
         padding-top: 10%;
-        padding-left: 16%;
+        padding-left: 23%;
     }
-    .home .home-content .right{
+    /* .home .home-content .right{
         width: 70%;
-    }
-    .about .about-content .left {
+    } */
+    /* .about .about-content .left {
         width: 50%
         
-    }
+    } */
     .services .serv-content .card{
         display: flex;
         flex-direction: column;
@@ -111,13 +112,16 @@ body, html{
 .button-area{
     margin-left:30px;
 }
+.about .about-content .left{
+    width: 50%;
+    }
 
 .about1 .about-content .left{
     width: 50%;
     }
     .about1{
         /* margin-bottom: 20%; */
-        padding-top: 40%;
+        padding-top: 20%;
     }
 
 .about2 .about-content .left{
@@ -127,9 +131,9 @@ body, html{
 .about3 .about-content .left{
     width: 50%;
     }
-    .about5 .about-content .left{
-        width: 50%;
-        }
+/* .about5 .about-content .left{
+    width: 50%;
+    } */
     /* .about6 .about-content .left{
         width: 50%;
         } */
@@ -177,8 +181,24 @@ body, html{
     .twoslide{
         padding-bottom: 4vmin;
     }
+    /* .home .home-content .right{
+        margin-left: 50px;
+        margin-top: 50px;
+        display: absolute;
+    } */
+    /* .home .home-content .left img{
+        display: none;
+    }
         
-
+         .res-img{
+             width: 80%;
+    
+        } */
+        /* .res-img{
+            display: none;
+        } */
+        
+       
         
         
     /* .about .about-content .left2 img{
@@ -307,51 +327,46 @@ font-family: 'Ubuntu', sans-serif;
 width: 100%;
 display: flex;
 }
-/* .home .max-width .row{
-margin-right: 0;
-} */
 
 .home .home-content .left{
     width: 30%;
     
 }
+
 .home .home-content .right{
     width: 70%;
     padding-top: 7%;
-    padding-left: 3.4%;
+    padding-left: 4%;
 }
-.home .home-content .left img{
+.home .home-content .left .res-img{
     
-    /* width: 450px; */
-    height: 70vmin;
+    margin-top: 20vmin;
+    width: 100%;
+    max-width: 500px;
+    min-width: 200px;
+    height: auto;
     position: relative;
-    background-size: cover;
-    background-attachment: fixed;
-    /* margin-left: 20px; */
-    /* margin-top: 140px; */
+    /* background-size: cover;
+    background-attachment: fixed; */
+
 }
 
 .home .home-content .right .text-2{
-/* font-size: 47px; */
+
 font-size: 7vmin;
 letter-spacing: -2px;
 font-weight: 600;
-/* font-size: 55px;
-font-weight: 600;
-width: 65%; 
-margin: 0px 25px;
-color: rgb(77, 209, 128); */
+
+
 
 }
 
 .home .home-content .right .text-3{
-    /* font-size: 20px; */
-    font-size: 3.2vmin;
+  
+font-size: 3.2vmin;
 letter-spacing: 1px;
-padding: 28px 0;
-/* font-size: 25px;
-color: rgb(177, 26, 26);
-margin: 25px 25px; */
+padding: 4vmin 0;
+
 }
 
 .home .home-content a{
@@ -360,7 +375,7 @@ background: rgba(114, 114, 114, 0.4);
 border: none;
 font-weight: bold;
 color: #111;
-/* font-size: 25px; */
+
 font-size: 4vmin;
 border-radius: 2.4vmin;
 letter-spacing: 1px;
@@ -402,7 +417,7 @@ width: 60vmin;
 /* object-fit: cover; */
 height: 90vmin;
 /* margin: 10px; */
-margin-left: 15%;
+margin-left: 25%;
 padding: 30px 0;
 box-shadow: 0 2px 5px 1px #888888;
 border-radius: 2vmin;
@@ -781,7 +796,7 @@ list-style: none;
 .footer{
 background-image: linear-gradient(rgb(231, 0, 0), rgb(77, 0, 0));
 /* background-color: #24262b; */
-padding: 25px 0;
+padding: 25px 3vmin;
 
 
 }
@@ -1329,7 +1344,6 @@ margin-bottom: 20px;
 .about5 {
     padding-top: 4vmin;
     background-color: rgba(221, 221, 221, 0.959);
-    /* background-image: linear-gradient(rgb(141, 19, 19), rgb(236, 236, 223)); */
     }
 
     .about5 h1{
@@ -1337,17 +1351,21 @@ margin-bottom: 20px;
         margin-bottom: 40px;
     }
     
+    .about5 .about-content .projects-box{
+        display: inline-block;
+        padding-left: 7%;
+    }
    
-    .about5 .about-content .left img{
+    .about5 .about-content .projects-box img{
     height: 45vmin;
     width: 70vmin;
     object-fit: cover;
     border-radius: 1vmin;
     }
-    .about5 .about-content .right{
-    /* margin-bottom: 49vmin; */
+    /* .about5 .about-content .right{
+    
     width: 50%;
-    }
+    } */
     .about5 .about-content .right img{
     
         height: 45vmin;
@@ -1355,10 +1373,10 @@ margin-bottom: 20px;
         object-fit: cover;
         border-radius: 1vmin;
     }
-    .about5 .about-content h3{
+    .about5 .about-content .projects-box h3{
         font-size: 3vmin;
     }
-    .about5 .about-content p{
+    .about5 .about-content .projects-box p{
     font-size: 2.4vmin;
     color: red;
     text-align: justify;

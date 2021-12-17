@@ -13,6 +13,7 @@ import $ from 'jquery';
 
 const Home = () => {
 // render(){
+ 
   
     const [isMobile, setIsMobile] = useState(true);
     const particlesInit = (main) => {
@@ -204,10 +205,11 @@ We build software solution <br/>that move you forward </p>
 <div class=" right">
 <div class="text-2">YOU HAVE FOUND THE BEST MOBILE APP DEVELOPMENT COMPANY</div>
 <div class="text-3">If you need the best custom iOS or Android app for your brand, you have found the right fit! ShellCode Solutions will do that for you.</div>
+{/* <div ><img src="assets/images/man.png" alt="" className={isMobile ? "res-img-mobile" : "res-img"}/></div> */}
 <a href="https://wa.me/+919876543210">Book a Consultant</a>
 </div>
 <div class=" left">
-<img src="assets/images/man.png" alt="1"/>
+<img src="assets/images/man.png" alt="1" class="res-img"/>
 
 </div>
 
