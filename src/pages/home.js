@@ -219,22 +219,71 @@ We build software solution <br/>that move you forward </p>
 </div>
 </section>
 
-{/* <!-- our Projects --> */}
+{/* <!-- our Clients --> */}
 
 <section class="our">
 <div class="max-width">
-<div class="text">Our<br/><span>Proje</span>cts</div>
-<div class="our-content">
+<div class="text">Our<br/><span>Clie</span>nts</div>
+{/* <div class="our-content"> */}
 
-<div class="right">
+{/* <div class="right">
 <div class="box1"></div>
 </div>
 <div class="left">
 <div class="box2"></div>
+</div> */}
+<div class="slider">
+  <div class="slide-track">
+    <div class="slide">
+      <img src="assets/images/1.jpg"/>
+      <img src="assets/images/2.jpg"/>
+      <img src="assets/images/3.jpg"/>
+      <img src="assets/images/4.jpg"/>
+      <img src="assets/images/5.jpg"/>
+      <img src="assets/images/6.jpg"/>
+      <img src="assets/images/7.jpg"/>
+      <img src="assets/images/8.jpg"/>
+      <img src="assets/images/9.jpg"/>
+      <img src="assets/images/10.jpg"/>
+      <img src="assets/images/11.jpg"/>
+      <img src="assets/images/12.jpg"/>
+      <img src="assets/images/13.jpg"/>
+      <img src="assets/images/14.jpg"/>
+      <img src="assets/images/15.jpg"/>
+    </div>
+    <div class="slide">
+      <img src="assets/images/1.jpg"/>
+      <img src="assets/images/2.jpg"/>
+      <img src="assets/images/3.jpg"/>
+      <img src="assets/images/4.jpg"/>
+      <img src="assets/images/5.jpg"/>
+      <img src="assets/images/6.jpg"/>
+      <img src="assets/images/7.jpg"/>
+      <img src="assets/images/8.jpg"/>
+      <img src="assets/images/9.jpg"/>
+      <img src="assets/images/10.jpg"/>
+      <img src="assets/images/11.jpg"/>
+      <img src="assets/images/12.jpg"/>
+      <img src="assets/images/13.jpg"/>
+      <img src="assets/images/14.jpg"/>
+      <img src="assets/images/15.jpg"/>
+    </div>
+    
+   
+    
+   
+    
+    
+    
+    
 </div>
 </div> 
 </div>
 </section>
+
+
+
+
 
 {/* <!-- about section start --> */}
 <section class="about" id="">

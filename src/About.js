@@ -371,7 +371,7 @@ const About = () => {
 
 
 <section class="about5" id="">
-<div class="max-width" >
+{/* <div class="max-width" > */}
 <h1>Our Projects</h1>
 {/* <!-- <h2 class="title">About me</h2> --> */}
 <div class="about-content">
@@ -379,37 +379,48 @@ const About = () => {
 
 <div class=" left">
 <div class="projects-box">
-<img src="assets/images/sample.jpeg" alt="1"/>
-<h3>Amount - The Future Of Digital Banking Technology</h3>
-<p>Websites & Digital Platforms</p>
+<img src="assets/images/projects/FarmersKart.jpg" alt="1"/>
+<h3>Amount - The Future Of Digital Groceries</h3>
+<p>Application Platforms</p>
 </div>
 <div class="projects-box">
-<img src="assets/images/sample.jpeg" alt="1"/>
-<h3>Amount - The Future Of Digital Banking Technology</h3>
-<p>Websites & Digital Platforms</p>
+<img src="assets/images/projects/DesiiMeat.jpg" alt="1"/>
+<h3>Amount - The Future Of Digital Chickens</h3>
+<p>Application Platforms</p>
 </div>
-
-
 {/* </div> */}
 
 {/* <div class=" right"> */}
 <div class="projects-box">
-<img src="assets/images/sample.jpeg" alt="1"/>
-<h3>Amount - The Future Of Digital Banking Technology</h3>
-<p>Websites & Digital Platforms</p>
+<img src="assets/images/projects/GOOGLEMEET.jpg" alt="1"/>
+<h3>Amount - The Future Of Digital Meet</h3>
+<p>Application Platforms</p>
 </div>
 <div class="projects-box">
-<img src="assets/images/sample.jpeg" alt="1"/>
-<h3>Amount - The Future Of Digital Banking Technology</h3>
-<p>Websites & Digital Platforms</p>
+<img src="assets/images/projects/Lagnakariya.jpg" alt="1"/>
+<h3>Amount - The Future Of Sellings Bike Digital</h3>
+<p>Websites Platforms</p>
 </div>
-
-
+<div class="projects-box">
+<img src="assets/images/projects/GreenTiger.jpg" alt="1"/>
+<h3>Amount - The Future Of Quotation List</h3>
+<p>Application Platforms</p>
+</div>
+<div class="projects-box1">
+<img src="assets/images/projects/Pharma.jpg" alt="1" class="resp"/>
+<h3>Amount - The Future Of Digital Banking Technology</h3>
+<p>Websites Platforms</p>
+</div>
+<div class="projects-box1">
+<img src="assets/images/projects/HomeGuru.jpg" alt="1"/>
+<h3>Amount - The Future Of Digital Banking Technology</h3>
+<p>Websites Platforms</p>
+</div>
 </div>
 
 </div>
 <a href="#teams">Learn More</a>
-</div>
+{/* </div> */}
 </section>
 
 
