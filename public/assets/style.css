@@ -247,7 +247,7 @@ font-family: 'Poppins', sans-serif;
 .about5 .about-content,
 .about6 .about-content,
 /* .topstories .about-content, */
-.tab-sec .image-tab,
+/* .tab-sec .image-tab, */
 .contact .contact-content{
 display: flex;
 flex-wrap: wrap;
@@ -1110,11 +1110,13 @@ display: block;
         .about2 .about-content .right h3{
         padding-top: 2vmin;
         font-size: 3vmin;
+        
         font-weight: bold;
         padding-bottom: 10px;
         }
         .about2 .about-content .right span{
         font-size: 2.36vmin;
+        
         font-weight: 450;
         text-align: justify;
         }
@@ -1374,19 +1376,27 @@ display: block;
 /* section of tabs */
 .tab-box{
     background-color: rgb(226, 226, 226);
-    padding: 30px 6vmin;
+    padding: 3vmin 6vmin;
 }
 .tab-box h1{
 font-size: 8vmin;
 font-weight: 600;
-margin-bottom: 20px;
+margin-bottom: 2vmin;
 }
 .tab-sec{
     background-color: rgb(226, 226, 226);
-    height: 100vh;
+    height: auto;
 }
+.tab-sec .image-tab{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+}
+
 .tab-sec .image-tab .left{
-    width: 50%;    
+    width: 50%; 
+    padding-top: 8vmin;   
 
 }
 
@@ -1395,7 +1405,7 @@ margin-bottom: 20px;
     width: 40vmin;
     height: 60vmin;
     margin-right: 20px;
-    border-radius: 6px;
+    border-radius: 1vmin;
     float: left;
     box-shadow: 0 2px 3px 0.5px #888888;
 
@@ -1429,7 +1439,7 @@ margin-bottom: 20px;
 }
 .tab-sec .image-tab .right{
     width: 50%;
-    padding-top: 200px;
+    padding-top: 22vmin;
     /* float: right; */
 
 }
@@ -1437,7 +1447,7 @@ margin-bottom: 20px;
     width: 40vmin;
     height: 60vmin;
     margin-right: 20px;
-    border-radius: 6px;
+    border-radius: 1vmin;
     float: left;
     box-shadow: 0 2px 3px 0.5px #888888;
 }

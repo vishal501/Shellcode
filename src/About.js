@@ -182,7 +182,6 @@ const About = () => {
                 
                 <div class="right">
                 <img src="assets/images/white.png" alt=""/>
-                {/* <div class="image-con"> */}
                 <h4>Shivam <br/>Kumar Verma</h4>
                 <a href="#teams">Bio</a>
                 
