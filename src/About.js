@@ -379,41 +379,89 @@ const About = () => {
 <div class=" left">
 <div class="projects-box">
 <img src="assets/images/projects/FarmersKart.jpg" alt="1"/>
-<h3>Amount - The Future Of Digital Groceries</h3>
-<p>Application Platforms</p>
+<h3>Farmers FarmersKart<br/>
+<span>Grocery Delivery App</span></h3>
 </div>
 <div class="projects-box">
 <img src="assets/images/projects/DesiiMeat.jpg" alt="1"/>
-<h3>Amount - The Future Of Digital Chickens</h3>
-<p>Application Platforms</p>
+<h3>Desii Meat <br/>
+<span>Food Delivery App</span></h3>
 </div>
 {/* </div> */}
 
 {/* <div class=" right"> */}
 <div class="projects-box">
 <img src="assets/images/projects/GOOGLEMEET.jpg" alt="1"/>
-<h3>Amount - The Future Of Digital Meet</h3>
-<p>Application Platforms</p>
+<h3>Sabak<br/>
+<span>Business meeting App</span></h3>
 </div>
 <div class="projects-box">
 <img src="assets/images/projects/Lagnakariya.jpg" alt="1"/>
-<h3>Amount - The Future Of Sellings Bike Digital</h3>
-<p>Websites Platforms</p>
+<h3>Lagnakariya <br/>
+<span>Matrimonial App</span></h3>
 </div>
 <div class="projects-box">
 <img src="assets/images/projects/GreenTiger.jpg" alt="1"/>
-<h3>Amount - The Future Of Quotation List</h3>
-<p>Application Platforms</p>
+<h3>Green Tiger <br/>
+<span>Ecommerce Web App</span></h3>
+</div>
+<div class="projects-box">
+<img src="assets/images/projects/company.jpg" alt="1"/>
+<h3>Check App <br/>
+<span>Employee Managment App</span></h3>
+</div>
+<div class="projects-box">
+<img src="assets/images/projects/Dryclean.jpg" alt="1"/>
+<h3>Chiago Dry Cleaners<br/>
+<span>Laundry App</span></h3>
+</div>
+<div class="projects-box">
+<img src="assets/images/projects/al.jpg" alt="1"/>
+<h3>Al-Hisab <br/>
+<span>Community Money Managment App</span></h3>
+</div>
+<div class="projects-box">
+<img src="assets/images/projects/milk.jpg" alt="1"/>
+<h3>Dairy App<br/>
+<span>Order management App</span></h3>
+</div>
+<div class="projects-box">
+<img src="assets/images/projects/plan.jpg" alt="1"/>
+<h3>NRI Nichola <br/>
+<span>US Matrimonial App</span></h3>
+</div>
+<div class="projects-box">
+<img src="assets/images/projects/dashboard.jpg" alt="1"/>
+<h3>Tutor app <br/>
+<span>Elearning App</span></h3>
+</div>
+<div class="projects-box">
+<img src="assets/images/projects/labour.jpg" alt="1"/>
+<h3>ServicExpertz<br/>
+<span>House Keeping & Personal Services App</span></h3>
 </div>
 <div class="projects-box1">
 <img src="assets/images/projects/Pharma.jpg" alt="1" class="resp"/>
-<h3>Amount - The Future Of Digital Banking Technology</h3>
-<p>Websites Platforms</p>
+<h3>Bsb Pharma<br/>
+<span>Order Managment App</span></h3>
 </div>
 <div class="projects-box1">
 <img src="assets/images/projects/HomeGuru.jpg" alt="1"/>
-<h3>Amount - The Future Of Digital Banking Technology</h3>
-<p>Websites Platforms</p>
+<h3>Home Guru <br/>
+<span>Housekeeping and personal Services Web App</span></h3>
+</div>
+
+
+
+<div class="projects-box1">
+<img src="assets/images/projects/food.jpg" alt="1"/>
+<h3>Ulrapi <br/>
+<span>Food Delivery App</span></h3>
+</div>
+<div class="projects-box1">
+<img src="assets/images/projects/website.jpg" alt="1"/>
+<h3>FOR <br/>
+<span>Restaurant Consultancy</span></h3>
 </div>
 </div>
 
