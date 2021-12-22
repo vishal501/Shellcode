@@ -14,13 +14,13 @@ body, html{
     overflow-x: hidden;
 }
 @media only screen and (max-width:800px){
-    .about5 .about-content .projects-box{
+    /* .about5 .about-content .projects-box{
         margin-left: 50px;
-    }
-    
-    /* .about5 .about-content .projects-box img{
-        width: 100px;
     } */
+    
+    .about5 .about-content .projects-box img{
+        min-width: 90vmin;
+    }
     /* update */
     /* .home .home-content a{
         display: block;
@@ -84,7 +84,7 @@ body, html{
         display: none;
     } */
 
-
+    
 
     
     
@@ -1409,6 +1409,7 @@ margin-bottom: 2vmin;
     .about5 .about-content .projects-box img{
     height: auto;
     width: 60vmin;
+    
     object-fit: cover;
     border-radius: 1vmin;
     }
