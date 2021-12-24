@@ -196,13 +196,13 @@ const Projects = () => {
         <Carousel breakPoints={breakPoints}>
           <Item className="twoslide">
               <div className="col">
-              <img src="assets/images/sample.jpeg"/>
+              <img src="assets/images/projects/FarmersKart.jpg"/>
               </div>
               <div className="col">
-              <h3>Service Expertz</h3>
+              <h3>Farmers FarmersKart</h3>
               </div>
               <div className="col">
-              <p>Website Development</p>
+              <p>Grocery Delivery App</p>
               </div>
               <div className="col">
               <a href="#teams">Learn More</a>
@@ -210,13 +210,13 @@ const Projects = () => {
           </Item>
           <Item className="twoslide1">
           <div className="col">
-              <img src="assets/images/sample.jpeg"/>
+              <img src="assets/images/projects/DesiiMeat.jpg"/>
               </div>
               <div className="col">
-              <h3>Lagnakarya</h3>
+              <h3>Desii Meat</h3>
               </div>
               <div className="col">
-              <p>UI UX</p>
+              <p>Food Delivery App</p>
               </div>
               <div className="col">
               <a href="#teams">Learn More</a>
@@ -224,13 +224,13 @@ const Projects = () => {
           </Item>
           <Item className="twoslide">
           <div className="col">
-              <img src="assets/images/sample.jpeg"/>
+          <img src="assets/images/projects/GOOGLEMEET.jpg" alt="1"/>
               </div>
               <div className="col">
-              <h3>Service Expertz</h3>
+              <h3>Sabak</h3>
               </div>
               <div className="col">
-              <p>Website Development</p>
+              <p>Business meeting App</p>
               </div>
               <div className="col">
               <a href="#teams">Learn More</a>
@@ -238,18 +238,186 @@ const Projects = () => {
           </Item>
           <Item className="twoslide1">
           <div className="col">
-              <img src="assets/images/sample.jpeg"/>
+          <img src="assets/images/projects/Lagnakariya.jpg" alt="1"/>
               </div>
               <div className="col">
-              <h3>Service Expertz</h3>
+              <h3>Lagnakariya</h3>
               </div>
               <div className="col">
-              <p>Website Development</p>
+              <p>Matrimonial App</p>
               </div>
               <div className="col">
               <a href="#teams">Learn More</a>
               </div>
           </Item>
+          <Item className="twoslide">
+          <div className="col">
+          <img src="assets/images/projects/GreenTiger.jpg" alt="1"/>              </div>
+              <div className="col">
+              <h3>Green Tiger </h3>
+              </div>
+              <div className="col">
+              <p>Ecommerce Web App</p>
+              </div>
+              <div className="col">
+              <a href="#teams">Learn More</a>
+              </div>
+          </Item>
+          <Item className="twoslide1">
+          <div className="col">
+          <img src="assets/images/projects/company.jpg" alt="1"/>
+              </div>
+              <div className="col">
+              <h3>Check App</h3>
+              </div>
+              <div className="col">
+              <p>Employee Managment App</p>
+              </div>
+              <div className="col">
+              <a href="#teams">Learn More</a>
+              </div>
+          </Item>
+          <Item className="twoslide">
+          <div className="col">
+          <img src="assets/images/projects/Dryclean.jpg" alt="1"/>
+              </div>
+              <div className="col">
+              <h3>Chiago Dry Cleaners</h3>
+              </div>
+              <div className="col">
+              <p>Laundry App</p>
+              </div>
+              <div className="col">
+              <a href="#teams">Learn More</a>
+              </div>
+          </Item>
+          <Item className="twoslide1">
+          <div className="col">
+          <img src="assets/images/projects/al.jpg" alt="1"/>
+              </div>
+              <div className="col">
+              <h3>Al-Hisab</h3>
+              </div>
+              <div className="col">
+              <p>Community Money Managment App</p>
+              </div>
+              <div className="col">
+              <a href="#teams">Learn More</a>
+              </div>
+          </Item>
+          <Item className="twoslide">
+          <div className="col">
+          <img src="assets/images/projects/milk.jpg" alt="1"/>
+              </div>
+              <div className="col">
+              <h3>Dairy App</h3>
+              </div>
+              <div className="col">
+              <p>Order management App</p>
+              </div>
+              <div className="col">
+              <a href="#teams">Learn More</a>
+              </div>
+          </Item>
+          <Item className="twoslide1">
+          <div className="col">
+          <img src="assets/images/projects/plan.jpg" alt="1"/>
+              </div>
+              <div className="col">
+              <h3>NRI Nichola</h3>
+              </div>
+              <div className="col">
+              <p>US Matrimonial App</p>
+              </div>
+              <div className="col">
+              <a href="#teams">Learn More</a>
+              </div>
+          </Item>
+          <Item className="twoslide">
+          <div className="col">
+          <img src="assets/images/projects/dashboard.jpg" alt="1"/>
+              </div>
+              <div className="col">
+              <h3>Tutor app</h3>
+              </div>
+              <div className="col">
+              <p>Elearning App</p>
+              </div>
+              <div className="col">
+              <a href="#teams">Learn More</a>
+              </div>
+          </Item>
+          <Item className="twoslide1">
+          <div className="col">
+          <img src="assets/images/projects/labour.jpg" alt="1"/>
+              </div>
+              <div className="col">
+              <h3>ServicExpertz</h3>
+              </div>
+              <div className="col">
+              <p>House Keeping & Personal Services App</p>
+              </div>
+              <div className="col">
+              <a href="#teams">Learn More</a>
+              </div>
+          </Item>
+          <Item className="twoslide">
+          <div className="col">
+          <img src="assets/images/projects/Pharma.jpg" alt="1" class="resp"/>
+              </div>
+              <div className="col">
+              <h3>Bsb Pharma</h3>
+              </div>
+              <div className="col">
+              <p>Order Managment App</p>
+              </div>
+              <div className="col">
+              <a href="#teams">Learn More</a>
+              </div>
+          </Item>
+          <Item className="twoslide1">
+          <div className="col">
+          <img src="assets/images/projects/HomeGuru.jpg" alt="1"/>
+              </div>
+              <div className="col">
+              <h3>Ulrapi </h3>
+              </div>
+              <div className="col">
+              <p>Food Delivery App</p>
+              </div>
+              <div className="col">
+              <a href="#teams">Learn More</a>
+              </div>
+          </Item>
+          <Item className="twoslide">
+          <div className="col">
+          <img src="assets/images/projects/food.jpg" alt="1"/>
+              </div>
+              <div className="col">
+              <h3>Ulrapi </h3>
+              </div>
+              <div className="col">
+              <p>Food Delivery App</p>
+              </div>
+              <div className="col">
+              <a href="#teams">Learn More</a>
+              </div>
+          </Item>
+          <Item className="twoslide1">
+          <div className="col">
+          <img src="assets/images/projects/website.jpg" alt="1"/>
+              </div>
+              <div className="col">
+              <h3>FOR </h3>
+              </div>
+              <div className="col">
+              <p>Restaurant Consultancy</p>
+              </div>
+              <div className="col">
+              <a href="#teams">Learn More</a>
+              </div>
+          </Item>
+          
           
         </Carousel>
       </div>

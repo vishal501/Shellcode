@@ -184,9 +184,9 @@ body, html{
     .about6 .about-content .right a{
         margin-left: 20px;
     }  
-    .twoslide{
+    /* .twoslide{
         padding-bottom: 4vmin;
-    }
+    } */
     /* .conta form{
         padding-top: 70%;
     } */
@@ -1865,17 +1865,18 @@ margin-bottom: 2vmin;
                 background-color: white;
             }
             .twoslide img{
-                height: 40vmin;
-                width: 80%;
+                /* height: 40vmin; */
+                width: 70%;
                 /* margin: 40px 40px; */
+
                 margin-top: 6vmin;
-                margin-bottom: 6vmin;
+                margin-bottom: 2%;
                 object-fit: cover;
                 border-radius: 8px;
                 
             }
             .twoslide h3{
-                font-size: 6vmin;  
+                font-size: 5vmin;  
                 font-weight: 700; 
                 color: #000;     
                 padding-bottom: 20px;        
@@ -1883,7 +1884,7 @@ margin-bottom: 2vmin;
             }
              
             .twoslide p{
-                font-size: 5vmin; 
+                font-size: 4vmin; 
                 color: #000;                 
 
             }
@@ -1914,17 +1915,17 @@ margin-bottom: 2vmin;
                     background-color: black;
                 }
                 .twoslide1 img{
-                height: 40vmin;
-                width: 80%;
+                /* height: 40vmin; */
+                width: 70%;
                 /* margin: 40px 40px; */
                 margin-top: 6vmin;
-                margin-bottom: 6vmin;
+                margin-bottom: 2%;
                 object-fit: cover;
                 border-radius: 8px;
                     
                 }
                 .twoslide1 h3{
-                    font-size: 6vmin;
+                    font-size: 5vmin;
                     font-weight: 700; 
                     color: #fff;     
                     padding-bottom: 20px;        
@@ -1932,7 +1933,7 @@ margin-bottom: 2vmin;
                 }
                  
                 .twoslide1 p{
-                    font-size: 5vmin;
+                    font-size: 4vmin;
                     color: #fff;                 
     
                 }
