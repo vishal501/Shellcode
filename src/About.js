@@ -147,7 +147,7 @@ const About = () => {
 <a href="https://wa.me/+919876543210">Get in Touch</a>
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/about.png" alt="1"/>
 </div>
 </div>
 </div>
@@ -172,17 +172,18 @@ const About = () => {
                 <div class="image-tab">
                 
                 <div class="left">
-                <img src="assets/images/white.png" alt=""/>
-                
-                <h4>Shivam <br/>Kumar Verma</h4>
+                <img src="assets/images/HarshalAdarkar.jpg" alt=""/>
+                <h4>Harshal Adarkar <br/><span>(Co - Founder & President)</span></h4>
                 <a href="#teams">Bio</a>
                 
                 </div>
                 
                 
                 <div class="right">
-                <img src="assets/images/white.png" alt=""/>
-                <h4>Shivam <br/>Kumar Verma</h4>
+                
+                <img src="assets/images/VitusRodrigo.png" alt=""/>
+                
+                <h4>Vitus Rodrigo <br/><span>(Co - Founder & President)</span></h4>
                 <a href="#teams">Bio</a>
                 
                 </div>

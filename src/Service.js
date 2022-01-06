@@ -149,7 +149,7 @@ To emote is to express. Everything we do elicits a profound response from our cl
 <a href="#teams">Get in Touch</a>
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/services.png" alt="1"/>
 </div>
 </div>
 
@@ -172,7 +172,7 @@ To emote is to express. Everything we do elicits a profound response from our cl
 
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/devops.png" alt="1"/>
 </div>
 </div>
 
@@ -188,7 +188,7 @@ To emote is to express. Everything we do elicits a profound response from our cl
 <div class="about-content">
 
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/mobile.png" alt="1"/>
 </div>
 
 <div class=" right">
@@ -223,7 +223,7 @@ We establish you in the online market!<br/>
 <a href="/website">Learn More</a>
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/website.png" alt="1"/>
 </div>
 </div>
 
@@ -236,7 +236,7 @@ We establish you in the online market!<br/>
 <div class="about-content">
 
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/uiux.png" alt="1"/>
 </div>
 
 <div class=" right">
@@ -266,7 +266,7 @@ We establish you in the online market!<br/>
 <a href="/social">Learn More</a>
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/social.png" alt="1"/>
 </div>
 </div>
 
@@ -280,7 +280,7 @@ We establish you in the online market!<br/>
 <div class="about-content">
 
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/seo.png" alt="1"/>
 </div>
 
 <div class=" right">

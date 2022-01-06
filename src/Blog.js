@@ -136,7 +136,7 @@ const Blog = () => {
 <a href="https://wa.me/+919876543210">Get in Touch</a>
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/blog.png" alt="1"/>
 </div>
 </div>
 </div>

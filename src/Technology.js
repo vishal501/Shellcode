@@ -129,7 +129,7 @@ const Technology = () => {
 <a href="https://wa.me/+919876543210">Get in Touch</a>
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/technology.png" alt="1"/>
 </div>
 </div>
 
@@ -150,7 +150,7 @@ const Technology = () => {
 <form>
 <div class="about-content">
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/python.png" />
 </div>
 
 <div class=" right">
@@ -197,7 +197,7 @@ Source Code Authorization<br/>
 <a href="/.net">Learn More</a>
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/net.png" alt="1"/>
 </div>
 
 </div>
@@ -216,7 +216,7 @@ Source Code Authorization<br/>
 <form>
 <div class="about-content">
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/php.png" alt="1"/>
 </div>
 
 <div class=" right">
@@ -266,7 +266,7 @@ Source Code Authorization<br/>
 <a href="/java">Learn More</a>
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/java.png" alt="1"/>
 </div>
 
 </div>
@@ -284,7 +284,7 @@ Source Code Authorization<br/>
 <form>
 <div class="about-content">
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/nodejs.png" alt="1"/>
 </div>
 
 <div class=" right">
@@ -315,7 +315,7 @@ Source Code Authorization<br/>
 <form>
 <div class="about-content">
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/react.png" alt="1"/>
 </div>
 
 <div class=" right">
@@ -360,7 +360,7 @@ Source Code Authorization<br/>
 <a href="/angular">Learn More</a>
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/angular.png" alt="1"/>
 </div>
 
 </div>
@@ -379,7 +379,7 @@ Source Code Authorization<br/>
 <form>
 <div class="about-content">
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/vuejs.png" alt="1"/>
 </div>
 
 <div class=" right">
@@ -429,7 +429,7 @@ Source Code Authorization<br/>
 <a href="/reactjs">Learn More</a>
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/reactjs.png" alt="1"/>
 </div>
 
 </div>
@@ -447,7 +447,7 @@ Source Code Authorization<br/>
 <form>
 <div class="about-content">
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/ios.png" alt="1"/>
 </div>
 
 <div class=" right">
@@ -486,7 +486,7 @@ Source Code Authorization<br/>
 <a href="/android">Learn More</a>
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/android.png" alt="1"/>
 </div>
 
 </div>
@@ -504,7 +504,7 @@ Source Code Authorization<br/>
 <form>
 <div class="about-content">
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/react.png" alt="1"/>
 </div>
 
 <div class=" right">
@@ -543,7 +543,7 @@ Source Code Authorization<br/>
 <a href="flutter">Learn More</a>
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/flutter.png" alt="1"/>
 </div>
 
 </div>
@@ -560,7 +560,7 @@ Source Code Authorization<br/>
 <form>
 <div class="about-content">
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/xamarin.png" alt="1"/>
 </div>
 
 <div class=" right">
