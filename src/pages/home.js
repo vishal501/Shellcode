@@ -300,7 +300,7 @@ We build software solution <br/>that move you forward </p>
 </h5></h3>
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/mobile.png" alt="1"/>
 
 </div>
 </div>
@@ -315,7 +315,7 @@ We build software solution <br/>that move you forward </p>
 <div class="about-content">
 
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/website.png" alt="1"/>
 </div>
 <div class=" right">
 {/* <!-- <div class="text">Technologies<span class="typing-2"></span></div> --> */}
@@ -339,7 +339,7 @@ We build software solution <br/>that move you forward </p>
 </h3>
 </div>
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/design.png" alt="1"/>
 </div>
 </div>
 </div>
@@ -349,7 +349,7 @@ We build software solution <br/>that move you forward </p>
 <div class="max-width1">
 <div class="about-content">
 <div class=" left">
-<img src="assets/images/1.png" alt="1"/>
+<img src="assets/images/seo.png" alt="1"/>
 </div>
 <div class=" right">
 <h3>Search Engine <br/> Optimization<br/>
