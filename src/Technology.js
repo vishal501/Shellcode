@@ -126,7 +126,7 @@ const Technology = () => {
 <span>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.
 </span>
 </h3>
-<a href="https://wa.me/+919876543210">Get in Touch</a>
+<a href="https://wa.me/+918097355922">Get in Touch</a>
 </div>
 <div class=" left">
 <img src="assets/images/technology.png" alt="1"/>
@@ -648,7 +648,7 @@ Source Code Authorization<br/>
 </div>
 <ul>
 <li><a href="#"><br/>About ShellCode</a></li>
-<li><a href="#"><br/>Est. Date</a></li>
+{/* <li><a href="#"><br/>Est. Date</a></li> */}
 
 </ul>
 </div>
@@ -666,16 +666,16 @@ Source Code Authorization<br/>
 <li><a href="/projects">Projects</a></li>
 <li><a href="/about">About Us</a></li>
 <li><a href="/blog">Blog</a></li>
-<li><a href="https://wa.me/+919876543210">Contact Us</a></li>
+<li><a href="https://wa.me/+918097355922">Contact Us</a></li>
 </ul>
 </div>
 <div class="footer-col">
 <h4>Follow Us</h4>
 <ul>
-<li><a href="https://www.instagram.com/">Instagram</a></li>
-<li><a href="https://www.linkedin.com/">Linkediin</a></li>
+<li><a href="https://instagram.com/shellcode_it_services?utm_medium=copy_link">Instagram</a></li>
+<li><a href="https://www.linkedin.com/company/shellcode-solutions">Linkediin</a></li>
 <li><a href="https://twitter.com/login?lang=en">Twitter</a></li>
-<li><a href="https://www.facebook.com/">Facebook</a></li>
+<li><a href="https://m.facebook.com/shellcodesolutions/">Facebook</a></li>
 </ul>
 </div>
 </div>

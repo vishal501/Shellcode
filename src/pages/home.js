@@ -1,6 +1,7 @@
 // import React from 'react';
 import React, { Component, useEffect, useState } from 'react';
 import Particles from "react-tsparticles";
+// import axios from 'axios';
 import $ from 'jquery';
 // import TestiMonialsDetails from './pages/TestiMonialsDetails'
 // import OwlCarousel from 'react-owl-carousel';
@@ -31,6 +32,7 @@ const Home = () => {
       // menuBtn.addEventListener('click', ()=>{
       //   navlinks.classList.toggle('mobile-menu')
       // })
+      
       
 
 
@@ -131,42 +133,6 @@ return(
 
 
 
-{/* <div id="particles-js"></div> */}
-
-{/* <div class="text1">
-
-
-<h1>We build software solution that move you forward</h1>
-<p>
-We build software solution <br/>that move you forward </p>
-<a href="#">Book a Consultant</a>
-</div>
-<div class="homeimage">
-<img src="assets/images/man.png"/>
-</div> */}
-
-
-{/* <nav class="navbar">
-<div class="max-width">
-<div class="logo"><a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a></div>
-<ul class={isMobile ? "menu-mobile" : "menu"}>
-<li><a href="/Service" class="menu-btn">Services</a></li>
-<li><a href="/technology" class="menu-btn">Technology</a></li>
-<li><a href="/about" class="menu-btn">About Us</a></li>
-<li><a href="/blog" class="menu-btn">Blog</a></li>
-<li><a href="/projects" class="menu-btn">Projects</a></li>
-
-</ul>
-<button className="mobile-menu-icon">
-{isMobile ? (
-  <i className="fas fa-times"></i>
-) : (
-  <i className="fas fa-bars"></i>
-)}
-</button>
-</div>
-</nav> */}
-{/* <!-- home section start --> */}
 
 
 
@@ -180,21 +146,6 @@ We build software solution <br/>that move you forward </p>
 
 
 
-
-{/* <nav>
-  <input type="checkbox" id="check"/>
-  <label for = "check" class="checkbtn">
-    <img src="assets/images/navbtn.png" class="navbtn"/>
-  </label>
-  <img src="assets/images/shellcode.jpg" class="logo"/>
-  <ul>
-    <li><a href="/service">Services</a></li>
-    <li><a href="/technology">Technology</a></li>
-    <li><a href="/about">About Us</a></li>
-    <li><a href="/blog">Blog</a></li>
-    <li><a href="/projects">Projects</a></li>
-  </ul>
-</nav> */}
 
 
 <div class="remove">
@@ -206,7 +157,7 @@ We build software solution <br/>that move you forward </p>
 <div class="text-2">YOU HAVE FOUND THE BEST MOBILE APP DEVELOPMENT COMPANY</div>
 <div class="text-3">If you need the best custom iOS or Android app for your brand, you have found the right fit! ShellCode Solutions will do that for you.</div>
 {/* <div ><img src="assets/images/man.png" alt="" className={isMobile ? "res-img-mobile" : "res-img"}/></div> */}
-<a href="https://wa.me/+919876543210">Book a Consultant</a>
+<a href="https://wa.me/+918097355922">Book a Consultant</a>
 </div>
 <div class=" left">
 <img src="assets/images/man.png" alt="1" class="res-img"/>
@@ -215,7 +166,7 @@ We build software solution <br/>that move you forward </p>
 
 </div>
 
-{/* <!-- <div id="particles-js"></div> --> */}
+
 </div>
 </section>
 
@@ -226,12 +177,7 @@ We build software solution <br/>that move you forward </p>
 <div class="text">Our<br/><span>Clie</span>nts</div>
 {/* <div class="our-content"> */}
 
-{/* <div class="right">
-<div class="box1"></div>
-</div>
-<div class="left">
-<div class="box2"></div>
-</div> */}
+
 <div class="slider">
   <div class="slide-track">
     <div class="slide">
@@ -382,29 +328,29 @@ We build software solution <br/>that move you forward </p>
 <div class="card">
 <div class="box">
 
-<h5>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion.
+<h5>ShellCode Solutions is a great company and best in Mumbai to work with as they are always responsive and willing to do what it takes to get the job done right and in a timely manner. They are very reliable and intelligent. I would highly recommend ShellCode Solutions as they are great to work with.
 
 </h5>
 <img src="assets/images/white.png" alt=""/>
-<div class="text">John Peter</div>
-<h4>Developer, UK, London</h4>
+<div class="text">Mayur Honnmane</div>
+{/* <h4>Developer, UK, London</h4> */}
 </div>
 </div>
 <div class="card">
 <div class="box">
 
-<h5>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion.</h5>
+<h5>One of the best company i have seen with such a excellent service and everything being perfect! Shelllcode solutions would never disappoint you by their service ! Shellcode solutions made that worry go away by growing by business from the internet! Really appreciated for the hard work they do in short period of time !</h5>
 <img src="assets/images/white.png" alt=""/>
-<div class="text">John Peter</div>
-<h4>Developer, UK, London</h4>
+<div class="text">Karan Joshi</div>
+{/* <h4>Developer, UK, London</h4> */}
 </div>
 </div>
 <div class="card">
 <div class="box">
-<h5>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion.</h5>
+<h5>Best website designing company i have come across, Their work is always better than what you expect, I give 100% for their customer service, I recommend shell codes to all of them looking for a website designer i am pretty sure they will surprise you with their good work.</h5>
 <img src="assets/images/white.png" alt=""/>
-<div class="text">John Peter</div>
-<h4>Developer, UK, London</h4>
+<div class="text">Akash Yadav</div>
+{/* <h4>Developer, UK, London</h4> */}
 </div>
 </div>
 </div>
@@ -456,44 +402,47 @@ We build software solution <br/>that move you forward </p>
 
 <span>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals 
 <br/><br/>Our contact details</span>
-<div class="head">987654321<br/>abc@gmail.com</div>
+<div class="head">+91 8097355922<br/>biz@shellcode.co.in</div>
 <div class="icons">
 </div>
 </div>
 
 <div class="column right">
-<form action="#">
+<form action="">
 <div class="fields">
 <div class="field name">
-<input type="text" placeholder="Name" required/>
+<input type="text" placeholder="Name"  required/>
 </div>
 <div class="field email">
-<input type="text" placeholder="Company" required/>
+<input type="text" placeholder="Company"  required/>
 </div>
 </div>
 <div class="fields">
 <div class="field name">
-<input type="text" placeholder="Phone" required/>
+<input type="text" placeholder="Phone"  required/>
 </div>
 <div class="field email">
 <input type="text" placeholder="Email" required/>
+
 </div>
 </div>
 
 <div class="field textarea">
-<textarea placeholder="Message.." required></textarea>
+<textarea placeholder="Message.." 
+name="message"  required></textarea>
 </div>
 <div class="button-area">
 <button type="submit">Send</button>
 </div>
 </form>
+
+{/* pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$" */}
 </div>
 </div>
 </div>
 
 </section>
 
-{/* <!-- contact --> */}
 
 {/* <!-- contact section start --> */}
 
@@ -506,7 +455,7 @@ We build software solution <br/>that move you forward </p>
 {/* </div> */}
 <ul>
 <li><a href="#">About ShellCode</a></li>
-<li><a href="#"><br/>Est. Date</a></li>
+{/* <li><a href="#"><br/>Est. Date</a></li> */}
 
 </ul>
 </div>
@@ -524,16 +473,16 @@ We build software solution <br/>that move you forward </p>
 <li><a href="/projects">Projects</a></li>
 <li><a href="/about">About Us</a></li>
 <li><a href="/blog">Blog</a></li>
-<li><a href="https://wa.me/+919876543210">Contact Us</a></li>
+<li><a href="https://wa.me/+918097355922">Contact Us</a></li>
 </ul>
 </div>
 <div class="footer-col">
 <h4>Follow Us</h4>
 <ul>
-<li><a href="https://www.instagram.com/">Instagram</a></li>
-<li><a href="https://www.linkedin.com/">Linkediin</a></li>
+<li><a href="https://instagram.com/shellcode_it_services?utm_medium=copy_link">Instagram</a></li>
+<li><a href="https://www.linkedin.com/company/shellcode-solutions">Linkediin</a></li>
 <li><a href="https://twitter.com/login?lang=en">Twitter</a></li>
-<li><a href="https://www.facebook.com/">Facebook</a></li>
+<li><a href="https://m.facebook.com/shellcodesolutions/">Facebook</a></li>
 </ul>
 </div>
 </div>
@@ -552,22 +501,6 @@ We build software solution <br/>that move you forward </p>
 
 
 
-// const TestiMonialsDetails = ({testiMonialDetail}) => {
-//     const {name, address, description, img} = testiMonialDetail;
-//     console.log("testiMonialDetail"+testiMonialDetail)
-//     return (
-//         <div class="item">
-//             <div class="shadow-effect">
-//                 <img class="img-circle" src={img} />
-//                 <p>{description}</p>
-//             </div>
-//             <div class="testimonial-name">
-//                 <h5>{name}</h5>
-//                 <small>{address}</small>
-//             </div>
-//         </div>
-//     );
-// };
 
 
 export default Home;
