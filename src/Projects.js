@@ -579,9 +579,10 @@ const Projects = () => {
 </ul>
 </div>
 <div class="footer-col">
-<h4>Location</h4>
+<h4>Contact</h4>
 <ul>
-<li><a href="#"></a></li>
+<li><a href="#">+91 8097355922</a></li>
+<li><a>biz@shellcode.co.in</a></li>
 </ul>
 </div>
 <div class="footer-col">

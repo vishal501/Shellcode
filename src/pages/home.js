@@ -1,16 +1,22 @@
 // import React from 'react';
 import React, { Component, useEffect, useState } from 'react';
 import Particles from "react-tsparticles";
+import emailjs from 'emailjs-com';
 // import axios from 'axios';
 import $ from 'jquery';
-// import TestiMonialsDetails from './pages/TestiMonialsDetails'
-// import OwlCarousel from 'react-owl-carousel';
-// import 'owl.carousel/dist/assets/owl.carousel.css';
 
-// import Carousel from "react-elastic-carousel";
-// import Card from "./Card";
-// import Item from "./Item";
-
+const Result = () => {
+  return(
+    <p>We will contact you soon... </p>
+  );
+}
+const Download = () => {
+  return(
+    <div className="Portfolio">
+    <a href="assets/Shellcode_Portfolio.zip" download><pre><i class="fa fa-download" aria-hidden="true"></i> Portfolio</pre></a>
+    </div>
+  );
+}
 
 const Home = () => {
 // render(){
@@ -32,9 +38,39 @@ const Home = () => {
       // menuBtn.addEventListener('click', ()=>{
       //   navlinks.classList.toggle('mobile-menu')
       // })
+      const[result, showResult] = useState(false);
       
+      function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm(
+        "serviceID",// emailjs Service ID
+        "templateID",// template ID
+        e.target,
+        "user_**********"// emailjs Integration init("user_**********");
+
+        )
+        // .then(res=>{
+        //   console.log(res);
+        // }).catch(err=> console.log(err));
+
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+        e.target.reset();
+        showResult(true);
+      }
       
 
+
+
+      // button
+      
 
     
 return(
@@ -328,12 +364,12 @@ return(
 <div class="card">
 <div class="box">
 
-<h5>ShellCode Solutions is a great company and best in Mumbai to work with as they are always responsive and willing to do what it takes to get the job done right and in a timely manner. They are very reliable and intelligent. I would highly recommend ShellCode Solutions as they are great to work with.
 
-</h5>
+<h5><br/><br/>Amazing experience at Shellcode! Very profrssional staff and exxcellent service, must check them out. 
+</h5><br/>
+
 <img src="assets/images/white.png" alt=""/>
-<div class="text">Mayur Honnmane</div>
-{/* <h4>Developer, UK, London</h4> */}
+<div class="text">Melvin Mathews</div>
 </div>
 </div>
 <div class="card">
@@ -377,14 +413,12 @@ return(
 <div class=" right">
 <div class="menu2">
 <ul>
-<li><a href="#">Services</a></li>
-<li><a href="#">Technology</a></li>
-<li><a href="#">Projects</a></li>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Blog</a></li>
-<li><a href="#">Contact Us</a></li>
-<li><a href="#">Contact Us</a></li>
-
+<li><a href="/service">Services</a></li>
+<li><a href="/technology">Technology</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/about">About Us</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="https://wa.me/+918097355922">Contact Us</a></li>
 </ul>
 </div>
 </div>
@@ -398,31 +432,31 @@ return(
 
 <div class="max-width1">
 <div class="contact-content">
-<div class="column left">
+{/* <div class="column left">
 
 <span>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals 
 <br/><br/>Our contact details</span>
 <div class="head">+91 8097355922<br/>biz@shellcode.co.in</div>
 <div class="icons">
 </div>
-</div>
+</div> */}
 
 <div class="column right">
-<form action="">
+<form action="" onSubmit={sendEmail}>
 <div class="fields">
 <div class="field name">
-<input type="text" placeholder="Name"  required/>
+<input type="text" placeholder="Name"  name="name" required/>
 </div>
 <div class="field email">
-<input type="text" placeholder="Company"  required/>
+<input type="text" placeholder="Company" name="company" required/>
 </div>
 </div>
 <div class="fields">
 <div class="field name">
-<input type="text" placeholder="Phone"  required/>
+<input type="text" placeholder="Phone" name="phone" required pattern="[0-9]"/>
 </div>
 <div class="field email">
-<input type="text" placeholder="Email" required/>
+<input type="text" placeholder="Email" name="email" required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$"/>
 
 </div>
 </div>
@@ -431,9 +465,20 @@ return(
 <textarea placeholder="Message.." 
 name="message"  required></textarea>
 </div>
-<div class="button-area">
-<button type="submit">Send</button>
+<div className="sentmsg">{result ? <Download/> : null}</div>
+<div className="sentmsg">{result ? <Result/> : null}</div>
+<div class="button-area" >
+<button type="submit" 
+onSubmit={(values, {resetform}) => {
+  console.log('', values);
+  resetform({values: ''})
+}
+}>Send</button>
+{/* <a href="assets/portfolio.pdf" download>Send</a> */}
 </div>
+
+
+
 </form>
 
 {/* pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$" */}
@@ -460,9 +505,10 @@ name="message"  required></textarea>
 </ul>
 </div>
 <div class="footer-col">
-<h4>Location</h4>
+<h4>Contact</h4>
 <ul>
-<li><a href="#"></a></li>
+<li><a href="#">+91 8097355922</a></li>
+<li><a>biz@shellcode.co.in</a></li>
 </ul>
 </div>
 <div class="footer-col">
@@ -489,9 +535,7 @@ name="message"  required></textarea>
 </div>
 
 </footer>
-{/* <script type="text/javascript" src="particles.js"></script>
-<script type="text/javascript" src="app1.js"></script> */}
-{/* <script src="/assets/script.js"></script> */}
+
 </div>
 </>
 

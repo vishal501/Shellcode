@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import Particles from "react-tsparticles";
+import emailjs from 'emailjs-com';
 
-// import { BrowserRouter as Router, Route, Link, NavLink, Switch, Redirect} from "react-router-dom";
-
+const Result = () => {
+  return(
+    <p>We will contact you soon... </p>
+  );
+}
+const Download = () => {
+  return(
+    <div className="Portfolio">
+    <a href="assets/Shellcode_Portfolio.zip" download><pre><i class="fa fa-download" aria-hidden="true"></i> Portfolio</pre></a>
+    </div>
+  );
+}
 
 const Technology = () => {
     const particlesInit = (main) => {
@@ -14,6 +25,31 @@ const Technology = () => {
       const particlesLoaded = (container) => {
         console.log(container);
       };
+
+      const[result, showResult] = useState(false);
+      
+      function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm(
+          "serviceID",// emailjs Service ID
+          "templateID",// template ID
+          e.target,
+          "user_**********"// emailjs Integration init("user_**********");
+
+        )
+
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+        e.target.reset();
+        showResult(true);
+      }
     return <>
 <div class="particles">
 <Particles
@@ -100,19 +136,7 @@ const Technology = () => {
     />
 </div>
 
-{/* <nav class="navbar">
-<div class="max-width">
-<div class="logo"><a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a></div>
-<ul class="menu">
-<li><a href="/Service" class="menu-btn">Services</a></li>
-<li><a href="/technology" class="menu-btn">Technology</a></li>
-<li><a href="/about" class="menu-btn">About Us</a></li>
-<li><a href="/blog" class="menu-btn">Blog</a></li>
-<li><a href="/projects" class="menu-btn">Projects</a></li>
 
-</ul>
-</div>
-</nav> */}
 
 <section class="about1" id="">
 
@@ -229,10 +253,7 @@ Dexterous development methodology<br/>
 Source Code Authorization<br/>
 </span></h3>
 <div class="javabtn"> 
-{/* <a href="#teams">Java </a>
-<a href="#teams">Java </a>
-<span>
-<a href="#teams">Angular</a></span> */}
+
 </div>
 <a href="php">Learn More</a>
 </div>
@@ -538,12 +559,12 @@ Source Code Authorization<br/>
 Custom Hiring Models<br/>
 On-Time delivery<br/>
 Dexterous development methodology<br/>
-Source Code Authorization<br/>
+Source Code Authorization
 </span></h3>
 <a href="flutter">Learn More</a>
 </div>
 <div class=" left">
-<img src="assets/images/flutter.png" alt="1"/>
+<img src="assets/images/flutter.png"  alt="1"/>
 </div>
 
 </div>
@@ -601,35 +622,43 @@ Source Code Authorization<br/>
 {/* <div class="box3"></div> */}
 
 <div class="conta"> 
-<form action="">
+<form action="" onSubmit={sendEmail}>
 <h2>Why not say hello</h2>
 <p>Whatever your challenge, we would love to talk you about it.</p>
     <div class="form group">
     <label for="fname">Name</label><br/>
-    <input type="text" class="form-control" required/>
+    <input type="text" class="form-control" name="name" required/>
     </div>
 
     <div class="form group">
-    <label for="fname">Company's Name</label><br/>
-    <input type="text" class="form-control" required/>
+    <label for="fname">Phone</label><br/>
+    <input type="text" class="form-control" name="phone" required pattern="[0-9]"/>
     </div>
 
     <div class="form group">
     <label for="fname">Email</label><br/>
-    <input type="text" class="form-control" required/>
+    <input type="text" class="form-control" name="email" required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$"/>
     </div>
    
     <div class="form group">
-    <label for="fname">Tell Us How Can We Help</label><br/>
-    <textarea class="form-control1"></textarea>
+    <label for="fname">Tell Us How Can We Help</label>
+    <textarea class="form-control1" name="message"  required></textarea>
     </div>
+    <div className="sentmsg">{result ? <Download/> : null}</div>
+    <div className="sentmsg">{result ? <Result/> : null}</div>
 
-    <div class="form group">
+    {/* <div class="form group">
     <input type="checkbox" id="terms"/>
     <label for="terms"> Terms and Condtions</label>
+    </div> */}
+    <div class="form group">
+    <button type="submit" class="btn" value="Submit"
+    onSubmit={(values, {resetform}) => {
+      console.log('', values);
+      resetform({values: ''})
+    }
+    }>Submit</button>
     </div>
-
-    <input type="submit" class="btn" value="Submit"/>
 
 
 </form>
@@ -653,9 +682,10 @@ Source Code Authorization<br/>
 </ul>
 </div>
 <div class="footer-col">
-<h4>Location</h4>
+<h4>Contact</h4>
 <ul>
-<li><a href="#"></a></li>
+<li><a href="#">+91 8097355922</a></li>
+<li><a>biz@shellcode.co.in</a></li>
 </ul>
 </div>
 <div class="footer-col">

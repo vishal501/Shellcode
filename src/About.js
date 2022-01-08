@@ -1,14 +1,22 @@
-// import React, { useEffect } from "react";
+import React, { useState } from "react";
 import { Tabs, Tab, AppBar, makeStyles } from '@material-ui/core';
 import Particles from "react-tsparticles";
-import React from "react";
+import emailjs from 'emailjs-com';
 import ReactDOM from "react-dom";
-// import { Component } from "react";
-// import Tabs from "./Tabs";
-// import Panel from "./Panel";
-// import "./About.css";
 
 
+const Result = () => {
+  return(
+    <p>We will contact you soon... </p>
+  );
+}
+const Download = () => {
+  return(
+    <div className="Portfolio">
+    <a href="assets/Shellcode_Portfolio.zip" download><pre><i class="fa fa-download" aria-hidden="true"></i> Portfolio</pre></a>
+    </div>
+  );
+}
 
 const About = () => {
     const particlesInit = (main) => {
@@ -27,6 +35,35 @@ const About = () => {
     const handleChange=(e,val)=>{
         console.warn(val)
         setValue(val)
+    }
+
+
+
+    // contact details to email
+    const[result, showResult] = useState(false);
+      
+    function sendEmail(e) {
+      e.preventDefault();
+
+      emailjs.sendForm(
+        "serviceID",// emailjs Service ID
+        "templateID",// template ID
+        e.target,
+        "user_**********"// emailjs Integration init("user_**********");
+
+      )
+     
+
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+      e.target.reset();
+      showResult(true);
     }
   
       
@@ -118,19 +155,7 @@ const About = () => {
       }}
     />
 </div>
-{/* <nav class="navbar">
-<div class="max-width">
-<div class="logo"><a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a></div>
-<ul class="menu">
-<li><a href="/Service" class="menu-btn">Services</a></li>
-<li><a href="/technology" class="menu-btn">Technology</a></li>
-<li><a href="/about" class="menu-btn">About Us</a></li>
-<li><a href="/blog" class="menu-btn">Blog</a></li>
-<li><a href="/projects" class="menu-btn">Projects</a></li>
 
-</ul>
-</div>
-</nav> */}
 
 
 <section class="about1" id="">
@@ -155,7 +180,7 @@ const About = () => {
 
 
             <div class="tab-box">
-                <h1>Meet Our Team</h1>
+                <h1>Meet Our Founders</h1>
                 {/* <AppBar position="static"> */}
                     <Tabs value={value} onChange={handleChange} variant="scrollable"
           scrollButtons="auto" classes={{indicator: classes.customStyleOnActiveTab}}
@@ -414,14 +439,12 @@ const About = () => {
 <div class=" right">
 <div class="menu2">
 <ul>
-<li><a href="#">Services</a></li>
-<li><a href="#">Technology</a></li>
-<li><a href="#">Projects</a></li>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Blog</a></li>
-<li><a href="#">Contact Us</a></li>
-<li><a href="#">Contact Us</a></li>
-
+<li><a href="/service">Services</a></li>
+<li><a href="/technology">Technology</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/about">About Us</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="https://wa.me/+918097355922">Contact Us</a></li>
 </ul>
 </div>
 </div>
@@ -436,40 +459,52 @@ const About = () => {
 
 <div class="max-width1">
 <div class="contact-content">
-<div class="column left">
+{/* <div class="column left">
 
 <span>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals 
 <br/><br/>Our contact details</span>
 <div class="head">987654321<br/>abc@gmail.com</div>
 <div class="icons">
 </div>
-</div>
+</div> */}
 <div class="column right">
+<form action="" onSubmit={sendEmail}>
+<div class="fields">
+<div class="field name">
+<input type="text" placeholder="Name"  name="name" required/>
+</div>
+<div class="field email">
+<input type="text" placeholder="Company" name="company" required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$"/>
+</div>
+</div>
+<div class="fields">
+<div class="field name">
+<input type="text" placeholder="Phone" name="phone" required pattern="[0-9]"/>
+</div>
+<div class="field email">
+<input type="text" placeholder="Email" name="email" required/>
 
-<form action="#">
-<div class="fields">
-<div class="field name">
-<input type="text" placeholder="Name" required/>
-</div>
-<div class="field email">
-<input type="text" placeholder="Company" required/>
-</div>
-</div>
-<div class="fields">
-<div class="field name">
-<input type="text" placeholder="Phone" required/>
-</div>
-<div class="field email">
-<input type="text" placeholder="Email" required/>
 </div>
 </div>
 
 <div class="field textarea">
-<textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+<textarea placeholder="Message.." 
+name="message"  required></textarea>
 </div>
-<div class="button-area">
-<button type="submit">Send</button>
+<div className="sentmsg">{result ? <Download/> : null}</div>
+<div className="sentmsg">{result ? <Result/> : null}</div>
+<div class="button-area" >
+<button type="submit" 
+onSubmit={(values, {resetform}) => {
+  console.log('', values);
+  resetform({values: ''})
+}
+}>Send</button>
+{/* <a href="assets/portfolio.pdf" download>Send</a> */}
 </div>
+
+
+
 </form>
 </div>
 </div>
@@ -493,9 +528,10 @@ const About = () => {
 </ul>
 </div>
 <div class="footer-col">
-<h4>Location</h4>
+<h4>Contact</h4>
 <ul>
-<li><a href="#"></a></li>
+<li><a href="#">+91 8097355922</a></li>
+<li><a>biz@shellcode.co.in</a></li>
 </ul>
 </div>
 <div class="footer-col">

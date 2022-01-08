@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import Particles from "react-tsparticles";
+import emailjs from 'emailjs-com';
 import {Link} from "react-router-dom";
 import { Switch } from "@material-ui/core";
 // import Devops from "./Services/Devops"
+
+const Result = () => {
+  return(
+    <p>We will contact you soon... </p>
+  );
+}
+const Download = () => {
+  return(
+    <div className="Portfolio">
+    <a href="assets/Shellcode_Portfolio.zip" download><pre><i class="fa fa-download" aria-hidden="true"></i> Portfolio</pre></a>
+    </div>
+  );
+}
 const Service = () => {
     const particlesInit = (main) => {
         console.log(main);
@@ -13,41 +27,32 @@ const Service = () => {
       const particlesLoaded = (container) => {
         console.log(container);
       };
+
+      const[result, showResult] = useState(false);
+      
+      function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm(
+          "serviceID",// emailjs Service ID
+          "templateID",// template ID
+          e.target,
+          "user_**********"// emailjs Integration init("user_**********");
+
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+        e.target.reset();
+        showResult(true);
+      }
     return <>
- {/* <section class="ourservices" id="">
-<div class="max-width">
-
-<div class="our-content">
-
-<div class=" right">
-<div class="blogtext">Our<br/>Services</div>
-
-<h3> An enthusiastic team delivering beautiful results.</h3>
-
-<p>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals with a strong passion for our specialties and a dedication to delivering exceptional results. Each of us brings our unique skill set and love for what we do. Because ultimately, our difference lies in how much we care.<br/>
-To emote is to express. Everything we do elicits a profound response from our clients, Excitement. Joy. Passion. Wonder. Pride. Satisfaction.</p>
-<a href="#teams">Get in Touch</a>
-</div>
-<div class=" left">
-<img src="assets/images/1.png" alt="1"/>
-</div>
-</div>
-</div>
-</section> */}
-
-{/* <nav class="navbar">
-<div class="max-width">
-<div class="logo"><a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a></div>
-<ul class="menu">
-<li><a href="/Service" class="menu-btn">Services</a></li>
-<li><a href="/technology" class="menu-btn">Technology</a></li>
-<li><a href="/about" class="menu-btn">About Us</a></li>
-<li><a href="/blog" class="menu-btn">Blog</a></li>
-<li><a href="/projects" class="menu-btn">Projects</a></li>
-
-</ul>
-</div>
-</nav> */}
+ 
 <Particles
       id="tsparticles"
       init={particlesInit}
@@ -304,35 +309,42 @@ We establish you in the online market!<br/>
 
 
 <div class="conta"> 
-<form action="">
+<form action="" onSubmit={sendEmail}>
 <h2>Why not say hello</h2>
 <p>Whatever your challenge, we would love to talk you about it.</p>
     <div class="form group">
     <label for="fname">Name</label><br/>
-    <input type="text" class="form-control" required/>
+    <input type="text" class="form-control" name="name" required/>
     </div>
 
     <div class="form group">
-    <label for="fname">Company's Name</label><br/>
-    <input type="text" class="form-control" required/>
+    <label for="fname">Phone</label><br/>
+    <input type="text" class="form-control" name="phone" required pattern="[0-9]"/>
     </div>
 
     <div class="form group">
     <label for="fname">Email</label><br/>
-    <input type="text" class="form-control" required/>
+    <input type="text" class="form-control" name="email" required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$"/>
     </div>
    
     <div class="form group">
     <label for="fname">Tell Us How Can We Help</label><br/>
-    <textarea class="form-control1"></textarea>
+    <textarea class="form-control1" name="message"  required></textarea>
     </div>
+    <div className="sentmsg">{result ? <Download/> : null}</div>
+    <div className="sentmsg">{result ? <Result/> : null}</div>
 
-    <div class="form group">
+    {/* <div class="form group">
     <input type="checkbox" id="terms"/>
     <label for="terms"> Terms and Condtions</label>
-    </div>
+    </div> */}
     <div class="form group">
-    <input type="submit" class="btn" value="Submit"/>
+    <button type="submit" class="btn" value="Submit"
+    onSubmit={(values, {resetform}) => {
+      console.log('', values);
+      resetform({values: ''})
+    }
+    }>Submit</button>
     </div>
 
 
@@ -357,9 +369,10 @@ We establish you in the online market!<br/>
 </ul>
 </div>
 <div class="footer-col">
-<h4>Location</h4>
+<h4>Contact</h4>
 <ul>
-<li><a href="#"></a></li>
+<li><a href="#">+91 8097355922</a></li>
+<li><a>biz@shellcode.co.in</a></li>
 </ul>
 </div>
 <div class="footer-col">
