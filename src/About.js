@@ -161,10 +161,10 @@ const About = () => {
           scrollButtons="auto" classes={{indicator: classes.customStyleOnActiveTab}}
             aria-label="some text">
               <Tab label={<span className={ value === 0 ? classes.activeTab : classes.customStyleOnTab}>Leadership</span>}/>
-                        <Tab label={<span className={ value === 1 ? classes.activeTab : classes.customStyleOnTab}>Accounts</span>}/>
-                        <Tab label={<span className={ value === 2 ? classes.activeTab : classes.customStyleOnTab}>Creative</span>}/>
-                        <Tab label={<span className={ value === 3 ? classes.activeTab : classes.customStyleOnTab}>Marketing</span>}/>
-                        <Tab label={<span className={ value === 4 ? classes.activeTab : classes.customStyleOnTab}>Developers</span>}/>
+                        {/* <Tab label={<span className={ value === 1 ? classes.activeTab : classes.customStyleOnTab}>Accounts</span>}/> */}
+                        {/* <Tab label={<span className={ value === 2 ? classes.activeTab : classes.customStyleOnTab}>Creative</span>}/> */}
+                        {/* <Tab label={<span className={ value === 3 ? classes.activeTab : classes.customStyleOnTab}>Marketing</span>}/> */}
+                        {/* <Tab label={<span className={ value === 4 ? classes.activeTab : classes.customStyleOnTab}>Developers</span>}/> */}
                     </Tabs>
                 {/* </AppBar> */}
                 <TabPanel value={value} index={0} >
@@ -207,7 +207,7 @@ const About = () => {
                 
                 <div class="right">
                 <img src="assets/images/white.png" alt=""/>
-                {/* <div class="image-con"> */}
+                
                 <h4>Shivam <br/>Kumar Verma</h4>
                 <a href="#teams">Bio</a>
                 
@@ -216,78 +216,7 @@ const About = () => {
                 </div>
                 </div>
                 </TabPanel>
-                <TabPanel value={value} index={2}>
-                <div class="tab-sec">
-                <div class="image-tab">
                 
-                <div class="left">
-                <img src="assets/images/white.png" alt=""/>
-                
-                <h4>Shivam <br/>Kumar Verma</h4>
-                <a href="#teams">Bio</a>
-                
-                </div>
-                
-                
-                <div class="right">
-                <img src="assets/images/white.png" alt=""/>
-                {/* <div class="image-con"> */}
-                <h4>Shivam <br/>Kumar Verma</h4>
-                <a href="#teams">Bio</a>
-                
-                </div>
-                
-                </div>
-                </div>
-                </TabPanel>
-                <TabPanel value={value} index={3}>
-                <div class="tab-sec">
-                <div class="image-tab">
-                
-                <div class="left">
-                <img src="assets/images/white.png" alt=""/>
-                
-                <h4>Shivam <br/>Kumar Verma</h4>
-                <a href="#teams">Bio</a>
-                
-                </div>
-                
-                
-                <div class="right">
-                <img src="assets/images/white.png" alt=""/>
-                {/* <div class="image-con"> */}
-                <h4>Shivam <br/>Kumar Verma</h4>
-                <a href="#teams">Bio</a>
-                
-                </div>
-                
-                </div>
-                </div>
-                </TabPanel>
-                <TabPanel value={value} index={4}>
-                <div class="tab-sec">
-                <div class="image-tab">
-                
-                <div class="left">
-                <img src="assets/images/white.png" alt=""/>
-                
-                <h4>Shivam <br/>Kumar Verma</h4>
-                <a href="#teams">Bio</a>
-                
-                </div>
-                
-                
-                <div class="right">
-                <img src="assets/images/white.png" alt=""/>
-                {/* <div class="image-con"> */}
-                <h4>Shivam <br/>Kumar Verma</h4>
-                <a href="#teams">Bio</a>
-                
-                </div>
-                
-                </div>
-                </div>
-                </TabPanel>
             </div>
 
 
