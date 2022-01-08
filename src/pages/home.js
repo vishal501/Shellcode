@@ -1,8 +1,7 @@
 // import React from 'react';
-import React, { Component, useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Particles from "react-tsparticles";
 import emailjs from 'emailjs-com';
-// import axios from 'axios';
 import $ from 'jquery';
 
 const Result = () => {
@@ -473,7 +472,7 @@ onSubmit={(values, {resetform}) => {
   console.log('', values);
   resetform({values: ''})
 }
-}>Send</button>
+}>Download Portfolio<pre></pre></button>
 {/* <a href="assets/portfolio.pdf" download>Send</a> */}
 </div>
 

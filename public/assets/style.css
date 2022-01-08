@@ -214,47 +214,7 @@ display: none;
 
 
 
-/* nav{
-    position: absolute;
-    height: 100px;
-    width: 100%;
 
-}
-.logo{
-    height: 90%;
-    padding: 10px 10%;
-}
-nav ul{
-    float:right;
-    padding-right: 30px;
-}
-nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-nav ul li a{
-    color: white;
-    padding: 0 18px;
-    font-size: 20px;
-    
-}
-.checkbtn{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    display: none;
-    cursor: pointer;
-}
-#check{
-    display: none;
-}
-.navbtn{
-    width: 20px;
-    height: 20px;
-} */
 
 
 
@@ -709,17 +669,18 @@ padding-top: 10px;
 .quote .right form .button-area{
 display: flex;
 align-items: center;
+
 }
 .button-area button{
 color: #fff;
 display: block;
-padding: 2.5% 4%;
+padding: 2.5% 10%;
 outline: none;
-margin-left: 80%;
+margin-left: 60%;
 margin-top: 15px;
 margin-bottom: 70px;
 box-shadow: 0 2px 5px 1px #888888;
-font-size: 2.6vmin;
+/* font-size: 3vmin; */
 font-weight: 600;
 border-radius: 1vmin;
 cursor: pointer;
@@ -1003,17 +964,19 @@ display: block;
     display: inline-block;
     background: none;
     color: #000;
-    font-size: 4vmin;
+    font-size: 3vmin;
     font-weight: normal;
     padding: 2vmin 6%;
     margin-top: 20px;
     margin-bottom: 2vmin;
     border-radius: 1vmin;
     border: 2px solid crimson;
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 .conta form .btn:hover{
     opacity: .7;
+    background-color: red;
 }
 .conta form{
     width: 100%;

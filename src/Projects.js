@@ -324,7 +324,7 @@ const Projects = () => {
           <img src="assets/images/projects/plan.jpg" alt="1"/>
               </div>
               <div className="col">
-              <h3>NRI Nichola</h3>
+              <h3>NRI Vichola</h3>
               </div>
               <div className="col">
               <p>US Matrimonial App</p>

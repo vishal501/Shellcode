@@ -499,7 +499,7 @@ onSubmit={(values, {resetform}) => {
   console.log('', values);
   resetform({values: ''})
 }
-}>Send</button>
+}>Download Portfolio</button>
 {/* <a href="assets/portfolio.pdf" download>Send</a> */}
 </div>
 

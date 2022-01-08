@@ -344,7 +344,7 @@ We establish you in the online market!<br/>
       console.log('', values);
       resetform({values: ''})
     }
-    }>Submit</button>
+    }>Download Portfolio</button>
     </div>
 
 
