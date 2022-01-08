@@ -474,15 +474,15 @@ const About = () => {
 <input type="text" placeholder="Name"  name="name" required/>
 </div>
 <div class="field email">
-<input type="text" placeholder="Company" name="company" required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$"/>
+<input type="text" placeholder="Company" name="company" required />
 </div>
 </div>
 <div class="fields">
 <div class="field name">
-<input type="text" placeholder="Phone" name="phone" required pattern="[0-9]"/>
+<input type="text" placeholder="Phone" name="phone" required pattern="[0-9]{10-15}"/>
 </div>
 <div class="field email">
-<input type="text" placeholder="Email" name="email" required/>
+<input type="text" placeholder="Email" name="email" required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$"/>
 
 </div>
 </div>

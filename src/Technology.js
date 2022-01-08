@@ -632,7 +632,7 @@ Source Code Authorization<br/>
 
     <div class="form group">
     <label for="fname">Phone</label><br/>
-    <input type="text" class="form-control" name="phone" required pattern="[0-9]"/>
+    <input type="text" class="form-control" name="phone" required pattern="[0-9]{10-15}"/>
     </div>
 
     <div class="form group">
