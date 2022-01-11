@@ -13,10 +13,11 @@ const Particle = () => {
         console.log(container);
       };
     return(
-      // <div class="particles">
-        // <Particles id="tsparticles" url="http://foo.bar/particles.json" init={particlesInit} loaded={particlesLoaded} />
+      // <Particles id="tsparticles" url="http://foo.bar/particles.json" init={particlesInit} loaded={particlesLoaded} />
+
+      <div class="particles">
       
-  // </div>
+  
         <Particles
       id="tsparticles"
       init={particlesInit}
@@ -99,6 +100,7 @@ const Particle = () => {
         detectRetina: true,
       }}
     />
+    </div>
 
     );
 }
