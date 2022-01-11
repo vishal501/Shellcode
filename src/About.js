@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Tabs, Tab, AppBar, makeStyles } from '@material-ui/core';
-import Particles from "react-tsparticles";
 import emailjs from 'emailjs-com';
 import ReactDOM from "react-dom";
 
@@ -19,15 +18,7 @@ const Download = () => {
 }
 
 const About = () => {
-    const particlesInit = (main) => {
-        console.log(main);
     
-        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-      };
-    
-      const particlesLoaded = (container) => {
-        console.log(container);
-      };
     
     
     const classes = useStyles()
@@ -71,90 +62,6 @@ const About = () => {
         return (
             <>
 
-<div class="particles">
-<Particles
-      id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
-      options={{
-        background: {
-          color: {
-            value: "",
-          },
-        },
-        fpsLimit: 60,
-        interactivity: {
-          events: {
-            onClick: {
-              enable: true,
-              mode: "push",
-            },
-            onHover: {
-              enable: true,
-              mode: "repulse",
-            },
-            resize: true,
-          },
-          modes: {
-            bubble: {
-              distance: 400,
-              duration: 2,
-              opacity: 0.8,
-              size: 40,
-            },
-            push: {
-              quantity: 4,
-            },
-            repulse: {
-              distance: 200,
-              duration: 0.4,
-            },
-          },
-        },
-        particles: {
-          color: {
-            value: "#ffffff",
-          },
-          links: {
-            color: "#ffffff",
-            distance: 100,
-            enable: true,
-            opacity: 0.5,
-            width: 1,
-          },
-          collisions: {
-            enable: true,
-          },
-          move: {
-            direction: "none",
-            enable: true,
-            outMode: "bounce",
-            random: false,
-            speed: 2,
-            straight: false,
-          },
-          number: {
-            density: {
-              enable: true,
-              value_area: 800,
-            },
-            value: 80,
-          },
-          opacity: {
-            value: 0.5,
-          },
-          shape: {
-            type: "circle",
-          },
-          size: {
-            random: true,
-            value: 5,
-          },
-        },
-        detectRetina: true,
-      }}
-    />
-</div>
 
 
 
@@ -514,50 +421,7 @@ onSubmit={(values, {resetform}) => {
 
 
 
-<footer class="footer">
-<div class="container">
-<div class="row">
-<div class="footer-col">
-<div className="circl">
-<a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a>
-</div>
-<ul>
-<li><a href="#"><br/>About ShellCode</a></li>
-{/* <li><a href="#"><br/>Est. Date</a></li> */}
 
-</ul>
-</div>
-<div class="footer-col">
-<h4>Contact</h4>
-<ul>
-<li><a href="#">+91 8097355922</a></li>
-<li><a>biz@shellcode.co.in</a></li>
-</ul>
-</div>
-<div class="footer-col">
-<h4>Explore</h4>
-<ul>
-<li><a href="/service">Services</a></li>
-<li><a href="/technology">Technology</a></li>
-<li><a href="/projects">Projects</a></li>
-<li><a href="/about">About Us</a></li>
-<li><a href="/blog">Blog</a></li>
-<li><a href="https://wa.me/+918097355922">Contact Us</a></li>
-</ul>
-</div>
-<div class="footer-col">
-<h4>Follow Us</h4>
-<ul>
-<li><a href="https://instagram.com/shellcode_it_services?utm_medium=copy_link">Instagram</a></li>
-<li><a href="https://www.linkedin.com/company/shellcode-solutions">Linkediin</a></li>
-<li><a href="https://twitter.com/login?lang=en">Twitter</a></li>
-<li><a href="https://m.facebook.com/shellcodesolutions/">Facebook</a></li>
-</ul>
-</div>
-</div>
-</div>
-
-</footer> 
 
 
             

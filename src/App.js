@@ -1,6 +1,8 @@
 import './App.css';
 import Navbar from "./Navbar";
-import Home from './pages/home';
+import Footer from "./Footer";
+import Particle from "./Particle";
+import Home from './Home';
 import Service from './Service';
 import Technology from './Technology';
 import About from './About';
@@ -39,6 +41,8 @@ import { BrowserRouter as Router, Route, Link, NavLink, Switch, Redirect} from "
 function App() {
  
   return (
+    <>
+    <Particle/>
     <Router>
       
       <Navbar/>
@@ -117,6 +121,8 @@ function App() {
         </Switch>
       </div> */}
     </Router>
+    <Footer/>
+    </>
     );
 }
 

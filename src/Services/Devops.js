@@ -2,6 +2,7 @@ import React from "react";
 
 
 
+
 const Devops = () => {
 return(
     
@@ -9,7 +10,7 @@ return(
 <section class="about1" id="">
 
 <div class="max-width" >
-{/* <!-- <h2 class="title">About me</h2> --> */}
+
 <div class="about-content">
 
 <div class=" right">
@@ -63,6 +64,8 @@ return(
         Get a glimpse of our success story and witness how we tackle challenges that come our way!</span>
     </h3>
 </div>
+
+
     </>
 )
 }
