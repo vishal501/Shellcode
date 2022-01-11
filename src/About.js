@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Tabs, Tab, AppBar, makeStyles } from '@material-ui/core';
 import emailjs from 'emailjs-com';
 import ReactDOM from "react-dom";
+import Particle from "./Particle";
 
 
 const Result = () => {
@@ -63,7 +64,7 @@ const About = () => {
             <>
 
 
-
+<Particle/>
 
 <section class="about1" id="">
 <div class="max-width" >

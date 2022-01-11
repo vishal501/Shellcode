@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import { Tabs, Tab, AppBar, makeStyles } from '@material-ui/core';
-
+import Particle from "./Particle";
 const Projects = () => {
     
     
@@ -30,21 +30,9 @@ const Projects = () => {
         <>
 
 
+<Particle/>
 
 
-{/* <nav class="navbar">
-<div class="max-width">
-<div class="logo"><a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a></div>
-<ul class="menu">
-<li><a href="/Service" class="menu-btn">Services</a></li>
-<li><a href="/technology" class="menu-btn">Technology</a></li>
-<li><a href="/about" class="menu-btn">About Us</a></li>
-<li><a href="/blog" class="menu-btn">Blog</a></li>
-<li><a href="/projects" class="menu-btn">Projects</a></li>
-
-</ul>
-</div>
-</nav> */}
 
 <section class="about1" id="">
 <div class="max-width" >

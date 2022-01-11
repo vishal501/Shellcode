@@ -31,11 +31,6 @@ import Android from './Technology/Frontend/Android';
 import Flutter from './Technology/Frontend/Flutter';
 import Xamarin from './Technology/Frontend/Xamarin';
 
-
-// import  from './Technology/Backend/';
-
-// import TestiMonials from './components/TestiMonials/TestiMonials';
-
 import { BrowserRouter as Router, Route, Link, NavLink, Switch, Redirect} from "react-router-dom";
 
 function App() {
@@ -50,26 +45,11 @@ function App() {
         <Route path="/" component={Home} exact/>
           {/* <Home/>
         </Route> */}
-        <Route path="/service" component={Service} exact/>
-        
-          {/* <Service/> */}
-          {/* <Route path={"/service/devops"} component={Devops}><Devops/></Route> */}
-        {/* </Route> */}
-        <Route path="/technology" component={Technology} exact/>
-          {/* <Technology/> */}
-        {/* </Route> */}
-        <Route path="/about" component={About} exact/>
-          {/* <About/> */}
-        {/* </Route> */}
-        <Route path="/blog" component={Blog} exact/>
-          {/* <Blog/> */}
-        {/* </Route> */}
-        <Route path="/projects" component={Projects} exact/>
-          {/* <Projects/> */}
-        {/* </Route> */}
-        {/* <Route path="/service/devops" component={Devops} exact>
-          <Devops/>
-        </Route> */}
+        <Route path="/service" component={Service} exact/>      
+        <Route path="/technology" component={Technology} exact/>         
+        <Route path="/about" component={About} exact/>   
+        <Route path="/blog" component={Blog} exact/>  
+        <Route path="/projects" component={Projects} exact/>  
         <Route path="/devops" component={Devops} exact/>
         <Route path="/mobile" component={Mobile} exact/>
         <Route path="/website" component={Website} exact/>
@@ -98,28 +78,7 @@ function App() {
       </Switch>
       
       
-      {/* <div>
-        
-        <Link exact to="/"></Link>
-        <Link exact className="main-nav" activeClassName="main-nav-active" to="/service"></Link>
-        <Link exact className="main-nav" activeClassName="main-nav-active" to="/technology"></Link>
-        <Link exact className="main-nav" activeClassName="main-nav-active" to="/about"></Link>
-        <Link exact className="main-nav" activeClassName="main-nav-active" to="/blog"></Link>
-        <Link exact className="main-nav" activeClassName="main-nav-active" to="/projects"></Link>
-        
-        <hr/>
-
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/service" component={Service} />
-          <Route path="/technology" component={Technology} />
-          <Route path="/blog" component={Blog} />
-          <Route path="/projects" component={Projects} />
-         
-
-        </Switch>
-      </div> */}
+      
     </Router>
     <Footer/>
     </>

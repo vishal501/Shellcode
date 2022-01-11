@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from 'emailjs-com';
+import Particle from "./Particle";
 
 const Result = () => {
   return(
@@ -44,7 +45,7 @@ const Technology = () => {
 
 
 
-
+<Particle/>
 <section class="about1" id="">
 
 <div class="max-width" >

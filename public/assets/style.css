@@ -338,7 +338,7 @@ border-bottom: 7px solid red;
     height: 50vmin;
     display: flex;
     align-items: center;
-    animation: slideshow 12s linear infinite;
+    animation: slideshow 8.8s linear infinite;
 }
 /* .slide img:hover{
     transform: scale(1.1);

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import Particle from "./Particle";
-import $ from 'jquery';
+// import $ from 'jquery';
 
 const Result = () => {
   return(
@@ -23,12 +23,7 @@ const Home = () => {
   
     const [isMobile, setIsMobile] = useState(true);
     
-      // const menuBtn = document.querySelector('.menu-btn')
-      // const navlinks = document.querySelector('.menu')
-
-      // menuBtn.addEventListener('click', ()=>{
-      //   navlinks.classList.toggle('mobile-menu')
-      // })
+    
       const[result, showResult] = useState(false);
       
       function sendEmail(e) {
@@ -284,13 +279,6 @@ return(
 
 
 
-
-
-
-
-
-
-
 <section class="quote">
 <div class="max-width">
 <div class="quote-content">
@@ -320,14 +308,7 @@ return(
 
 <div class="max-width1">
 <div class="contact-content">
-{/* <div class="column left">
 
-<span>Our team is the driving force of Shellcode. We're a close-knit bunch of talented individuals 
-<br/><br/>Our contact details</span>
-<div class="head">+91 8097355922<br/>biz@shellcode.co.in</div>
-<div class="icons">
-</div>
-</div> */}
 
 <div class="column right">
 <form action="" onSubmit={sendEmail}>
@@ -362,14 +343,9 @@ onSubmit={(values, {resetform}) => {
   resetform({values: ''})
 }
 }>Download Portfolio<pre></pre></button>
-{/* <a href="assets/portfolio.pdf" download>Send</a> */}
+
 </div>
-
-
-
 </form>
-
-{/* pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$" */}
 </div>
 </div>
 </div>
@@ -385,10 +361,6 @@ onSubmit={(values, {resetform}) => {
 
 );
 }
-
-
-
-
 
 
 export default Home;
