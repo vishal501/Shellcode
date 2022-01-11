@@ -1,6 +1,6 @@
 import React from "react";
 import { Tabs, Tab, AppBar, makeStyles } from '@material-ui/core';
-
+import Particle from "./Particle";
 const Blog = () => {
     
 
@@ -14,7 +14,7 @@ const Blog = () => {
     return <>
 
 
-
+<Particle/>
     {/* <nav class="navbar">
 <div class="max-width">
 <div class="logo"><a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a></div>

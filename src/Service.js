@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from 'emailjs-com';
+import Particle from "./Particle";
 import {Link} from "react-router-dom";
 import { Switch } from "@material-ui/core";
 // import Devops from "./Services/Devops"
@@ -45,7 +46,7 @@ const Service = () => {
     return <>
  
 
-
+ <Particle/>
 
 <section class="about1" id="">
 <div class="particles">

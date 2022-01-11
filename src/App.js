@@ -42,7 +42,7 @@ function App() {
  
   return (
     <>
-    <Particle/>
+    {/* <Particle/> */}
     <Router>
       
       <Navbar/>
