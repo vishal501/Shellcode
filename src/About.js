@@ -169,7 +169,7 @@ const About = () => {
 <h3>An enthusiastic team delivering beautiful results.<br/>
 <span>We at ShellCode Solutions aim to conquer the digital world with our mission. Our mission is to create a digital platform for all businesses. If you are a small and thriving business, we are here for you. Our ambition is to guide you create your digital assets by helping you establish your brand in the digital market.<br/>
 </span></h3>
-<a href="#teams">Learn More</a>
+{/* <a href="#teams">Learn More</a> */}
 </div>
 
 </div>
@@ -221,7 +221,7 @@ const About = () => {
 <h3>An enthusiastic team delivering beautiful results.</h3>
 <h3><span>We began this enterprise with a vision to help businesses grow. We aim to accomplish this by creating a digital identity for them. Our developers are dexterous and hard-working and add value to our team. We make use of top-notch technology to assist you in creating your digital presence. By ensuring our clients’ growth, we aim to lead the field of software development and have been inching closer towards our goal.<br/>
 </span></h3>
-<a href="#teams">Learn More</a>
+{/* <a href="#teams">Learn More</a> */}
 </div>
 
 </div>

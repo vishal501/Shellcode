@@ -166,12 +166,11 @@ const Blog = () => {
 </div>
 </section>
 
-<section class="about6" id="">
+{/* <section class="about6" id="">
 
 <div class="max-width" >
-{/* <!-- <h2 class="title">About me</h2> --> */}
 <div class="cardview">
-{/* <form> */}
+
 <div class="about-content">
 <div class=" left">
 <img src="assets/images/sample.jpeg" alt="1"/>
@@ -184,18 +183,14 @@ const Blog = () => {
 
 <a href="#teams">Learn More</a>
 </div>
-
-</div>
-{/* </form> */}
 </div>
 </div>
-</section>
+</div>
+</section> */}
 
 
-<section class="topstories">
-{/* <div class ="imagebox">
-    <h2>Top Stories</h2> 
-</div> */}
+{/* <section class="topstories">
+
 <h2>Top Stories</h2>
 
 <div class="about-content">
@@ -203,7 +198,6 @@ const Blog = () => {
 
 <div class="horizontal-slide">
 <div class="ro1">
-{/* <main> */}
 <div class="imageleft">
 <img src="assets/images/sample.jpeg" alt="1"/>
 <h5>Get To Know Platform Advertising With Criteo</h5>
@@ -242,11 +236,10 @@ Get To Know Platform Advertising With Crite</p>
 </div>
 </div>
 
-{/* </main> */}
 
 
 </div>
-</section>
+</section> */}
 
 
 

@@ -747,15 +747,33 @@ position: relative;
 }
 .footer-col ul li a{
 font-size: 2.4vmin;
-text-transform: capitalize;
+/* text-transform: capitalize; */
 color: #ffffff;
 text-decoration: none;
 font-weight: 300;
 color: #ffffff;
 display: block;
 }
-
-
+.black-footer{
+    background-color: #111;
+    /* background-image: linear-gradient(rgb(24, 0, 0), #111); */
+    color: #fff;
+    text-align: center;
+}
+.black-footer .copyright{
+    font-size: 2.6vmin;
+    padding-top: 1vmin;
+    padding-bottom: 3vmin;
+    font-weight: 300;
+}
+.black-footer .hyperlink{
+    font-size: 2.6vmin;
+    padding-bottom: 2.4vmin;
+    font-weight: 300;
+}
+.black-footer .hyperlink a{
+    color: red;
+}
 
 /* Services Page */
 

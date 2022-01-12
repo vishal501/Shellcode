@@ -1,6 +1,7 @@
 // import React from 'react';
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import Slider from './Slider';
 // import $ from 'jquery';
 
 const Result = () => {
@@ -241,8 +242,8 @@ return(
 <div class="max-width">
 <h2 class="title">What Our Clients S<span>ay </span></h2>
 <h3> They Love Our Service</h3>
-
-<div class="serv-content">
+<Slider/>
+{/* <div class="serv-content">
 <div class="card">
 <div class="box">
 
@@ -260,7 +261,7 @@ return(
 <h5>One of the best company i have seen with such a excellent service and everything being perfect! Shelllcode solutions would never disappoint you by their service ! Shellcode solutions made that worry go away by growing by business from the internet! Really appreciated for the hard work they do in short period of time !</h5>
 <img src="assets/images/white.png" alt=""/>
 <div class="text">Karan Joshi</div>
-{/* <h4>Developer, UK, London</h4> */}
+
 </div>
 </div>
 <div class="card">
@@ -268,10 +269,10 @@ return(
 <h5>Best website designing company i have come across, Their work is always better than what you expect, I give 100% for their customer service, I recommend shell codes to all of them looking for a website designer i am pretty sure they will surprise you with their good work.</h5>
 <img src="assets/images/white.png" alt=""/>
 <div class="text">Akash Yadav</div>
-{/* <h4>Developer, UK, London</h4> */}
+
 </div>
 </div>
-</div>
+</div> */}
 </div>
 
 </section>

@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from "./Navbar";
+// import Slider from "./Slider";
 import Footer from "./Footer";
 import Particle from "./Particle";
 import Home from './Home';
@@ -48,6 +49,7 @@ function App() {
       <Navbar/>
       <Switch>
         <Route path="/" component={Home} exact/>
+        {/* <Route path="/slider" component={Slider} exact/> */}
           {/* <Home/>
         </Route> */}
         <Route path="/service" component={Service} exact/>      
