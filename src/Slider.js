@@ -26,9 +26,7 @@ const Slider = () =>{
     return(
         <>
         <div className="container">
-      {/* <div className="logo">
-        <img src="/static/images/super-shoes.png" alt="Super Shoes Logo" />
-      </div> */}
+      
       <div className="carousel" ref={carousel}> 
         {data.map((item) => {
           const { id, name, oldPrice, image } = item;
