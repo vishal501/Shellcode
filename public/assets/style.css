@@ -472,8 +472,8 @@ background: none;
   .container2 .carousel .item {
       box-shadow: 10px 20px 9px rgba(0,0,0,0.5);
       background: #333;
-      border-top: 1px solid rgba(255,255,255,0.5);
-      border-left: 1px solid rgba(255,255,255,0.5);
+      border-top: 3px solid  white;
+      border-left: 3px solid white;
       backdrop-filter: blur(5px);
   }
   .container2 .carousel .item:hover{
@@ -512,6 +512,7 @@ background: none;
     font-size: 2.8vmin;
     font-weight: bold;
     margin-left: 9%;
+    text-decoration: none;
     margin-top: 900%;
     font-family: 'Poppins', sans-serif;
     color: #fff;

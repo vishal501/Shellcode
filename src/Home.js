@@ -268,24 +268,91 @@ return(
 <div className="container2">
       
       <div className="carousel" ref={carousel}> 
-        {data.map((item) => {
-          const { id, name, oldPrice, image } = item;
-          return (
-              <div className="item" key={id}>
+      <div className="item">
                   <div className="box">
-                  <img src={image} alt={name} style={{float: "left"}}/>
-                  <span className="name">{name}</span>
+                  <img src="https://cdn-icons.flaticon.com/png/512/1144/premium/1144709.png?token=exp=1641993062~hmac=1de5d378fe57416845ddc81607e369b3" style={{float: "left"}}/>
+                  <h4 className="name">&emsp;Mayur Honnmane</h4>
                   <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
                   <br/><br/><br/>
                   
                   </div>
-                  <div className="description">{oldPrice}</div>
+                  <div className="description">ShellCode Solutions is a great company and best in Mumbai to work with as they are always responsive and willing to do what it takes to get the job done right and in a timely manner. They are very reliable and intelligent. I would highly recommend ShellCode Solutions as they are great to work with.</div>
                   
                   </div>
+                  
               </div>
+              <div className="item">
+                  <div className="box">
+                  <img src="https://cdn-icons.flaticon.com/png/512/1144/premium/1144709.png?token=exp=1641993062~hmac=1de5d378fe57416845ddc81607e369b3"  style={{float: "left"}}/>
+                  <h4 className="name">&emsp;Akash 1811 Yadav</h4>
+                  <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
+                  <br/><br/><br/>
+                  
+                  </div>
+                  <div className="description">Best website designing company i have come across, Their work is always better than what you expect, I give 100% for their customer service, I recommend shell codes to all of them looking for a website designer i am pretty sure they will surprise you with their good work.</div>
+                  
+                  </div>
+                  
+              </div>
+              <div className="item">
+                  <div className="box">
+                  <img src="https://cdn-icons.flaticon.com/png/512/1144/premium/1144709.png?token=exp=1641993062~hmac=1de5d378fe57416845ddc81607e369b3" style={{float: "left"}}/>
+                  <h4 className="name">&emsp;18- Karan Joshi</h4>
+                  <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
+                  <br/><br/><br/>
+                  
+                  </div>
+                  <div className="description">One of the best company i have seen with such a excellent service and everything being perfect! Shelllcode solutions would never disappoint you by their service ! I was so worried about my business that how would i grow my business in this pandemic,but then Shellcode solutions made that worry go away by growing by business from the internet ! Really appreciated for the hard work they do in short period of time !</div>
+                  
+                  </div>
+                  
+              </div>
+              <div className="item">
+                  <div className="box">
+                  <img src="https://cdn-icons.flaticon.com/png/512/1144/premium/1144709.png?token=exp=1641993062~hmac=1de5d378fe57416845ddc81607e369b3" style={{float: "left"}}/>
+                  <h4 className="name">&emsp;melvin mathews</h4>
+                  <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
+                  <br/><br/><br/>
+                  
+                  </div>
+                  <div className="description">Amazing experience at ShellCode! Very professional staff and excellent service, must check them out</div>
+                  
+                  </div>
+                  
+              </div>
+              <div className="item">
+                  <div className="box">
+                  <img src="https://cdn-icons.flaticon.com/png/512/1144/premium/1144709.png?token=exp=1641993062~hmac=1de5d378fe57416845ddc81607e369b3" style={{float: "left"}}/>
+                  <h4 className="name">&emsp;IndraNeel Roy</h4>
+                  <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
+                  <br/><br/><br/>
+                  
+                  </div>
+                  <div className="description">Everyone was hit with the pandemic big time. For small business enterprises like me making sales offline was pretty difficult. I had approached several designer and logo branding companies but ShellCode IT services offered a lot and the quotes for their services were pretty competitive too. The entire idea was e-mailed to me overnight and within a span of 12 hours. Very impressed. They really mean time is money. Young minds in here truly make it one of the best app developers in the market. Thank you.</div>
+                  
+                  </div>
+                  
+              </div>
+        {/* {data.map((item) => {
+          const { id, name, oldPrice, image } = item;
+          return (
+              <div className="item">
+                  <div className="box">
+                  <img src="https://cdn-icons.flaticon.com/png/512/1144/premium/1144709.png?token=exp=1641993062~hmac=1de5d378fe57416845ddc81607e369b3" alt={name} style={{float: "left"}}/>
+                  <span className="name">Mayur Honnmane</span>
+                  <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
+                  <br/><br/><br/>
+                  
+                  </div>
+                  <div className="description">ShellCode Solutions is a great company and best in Mumbai to work with as they are always responsive and willing to do what it takes to get the job done right and in a timely manner. They are very reliable and intelligent. I would highly recommend ShellCode Solutions as they are great to work with.</div>
+                  
+                  </div>
+                  
+              </div>
+              
             
           );
-        })}
+        })} */}
       </div>
       <div className="buttons">
         <button onClick={handleLeftClick}>
