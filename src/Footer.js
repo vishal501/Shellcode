@@ -46,10 +46,10 @@ const Footer = () => {
 </div>
 
 </footer>
-<div class="black-footer">
+{/* <div class="black-footer">
     <div class="copyright">Copyright © 2020 Shellcode Solutions Technologies, All Rights Reserved</div>
     <h4 class="hyperlink">Designed and Developed by <a href="https://www.shellcode.co.in">Shellcode Solutions.com</a></h4>
-</div>
+</div> */}
 </>
     );
 }
