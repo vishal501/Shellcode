@@ -272,7 +272,7 @@ return(
                   <div className="box">
                   <img src="assets/images/users.png" style={{float: "left"}}/>
                   <h4 className="name">&emsp;Mayur Honnmane</h4>
-                  <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
+                  <div className="stars">&emsp;<i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
                   <br/><br/><br/>
                   
                   </div>
@@ -285,7 +285,7 @@ return(
                   <div className="box">
                   <img src="assets/images/users.png"  style={{float: "left"}}/>
                   <h4 className="name">&emsp;Akash 1811 Yadav</h4>
-                  <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
+                  <div className="stars">&emsp;<i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
                   <br/><br/><br/>
                   
                   </div>
@@ -298,7 +298,7 @@ return(
                   <div className="box">
                   <img src="assets/images/users.png" style={{float: "left"}}/>
                   <h4 className="name">&emsp;18- Karan Joshi</h4>
-                  <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
+                  <div className="stars">&emsp;<i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
                   <br/><br/><br/>
                   
                   </div>
@@ -311,7 +311,7 @@ return(
                   <div className="box">
                   <img src="assets/images/users.png" style={{float: "left"}}/>
                   <h4 className="name">&emsp;melvin mathews</h4>
-                  <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
+                  <div className="stars">&emsp;<i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
                   <br/><br/><br/>
                   
                   </div>
@@ -324,7 +324,7 @@ return(
                   <div className="box">
                   <img src="assets/images/users.png" style={{float: "left"}}/>
                   <h4 className="name">&emsp;IndraNeel Roy</h4>
-                  <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
+                  <div className="stars">&emsp;<i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
                   <br/><br/><br/>
                   
                   </div>

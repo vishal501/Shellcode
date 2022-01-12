@@ -498,14 +498,15 @@ background: none;
     transform: rotate(180deg);
   }
 
-  .set img{
+  /* .set img{
       border-radius: 50%;
       width: 30%;
       height: auto;
-  }
+  } */
   .item img{
     border-radius: 50%;
-    width: 20%;
+    border: 3px solid white;
+    width: 30%;
     height: auto;
   }
   .container .carousel .item .name {
