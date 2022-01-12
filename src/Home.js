@@ -253,7 +253,7 @@ return(
 
 <div class="about-content">
 <div class=" right">
-<a href="#teams">Explore More</a>
+{/* <a href="#teams">Explore More</a> */}
 </div>
 </div>
 </div>
