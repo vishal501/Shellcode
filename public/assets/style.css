@@ -464,7 +464,7 @@ background: none;
   .container2 .carousel .item {
     
     margin: 8vmin 2vmin;
-    padding: 1.5%;
+    padding: 4vmin;
     width: 60vmin;
     border-radius: 16px;
     flex: none;
@@ -505,9 +505,13 @@ background: none;
   } */
   .item img{
     border-radius: 50%;
-    border: 3px solid white;
-    width: 30%;
+    /* border: 3px solid white; */
+    width: 25%;
     height: auto;
+  }
+  .container2 .carousel .box h4{
+      font-size: 3vmin;
+      font-weight: 600;
   }
   .container .carousel .item .name {
     font-size: 2.8vmin;
