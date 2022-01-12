@@ -1,7 +1,6 @@
 // import React from 'react';
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import Particle from "./Particle";
 // import $ from 'jquery';
 
 const Result = () => {
@@ -62,7 +61,7 @@ const Home = () => {
 return(
 <>
 
-<Particle/>
+
 <div class="remove">
 
 <section class="home" id="">

@@ -6,6 +6,7 @@ const Node = () => {
 return(
     
 <>
+
 <section class="about1" id="">
 
 <div class="max-width" >

@@ -1,11 +1,10 @@
 import React from "react";
 
-
-
 const Python = () => {
 return(
     
 <>
+
 <section class="about1" id="">
 
 <div class="max-width" >

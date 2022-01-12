@@ -51,6 +51,120 @@ const Blog = () => {
 </section>
 
 
+<section class="about3" id="">
+<div class="max-width2" >
+{/* <!-- <h2 class="title">About me</h2> --> */}
+<div class="cardview">
+<form>
+<div class="about-content">
+
+<div class=" right">
+<div class="blog-text">10 questions to ask before hiring a Mobile App Development Company</div>
+<h3><span>How do you find the one? No, we are not talking about romance here. Although, finding the correct mobile app developers for your mobile application development needs can be even more difficult than finding the love of your life. Why? Here are certain questions you should be asking your mobile app developers and certain answers they should be providing. 
+</span></h3>
+<a href="/beforehiring">Learn More</a>
+</div>
+<div class=" left">
+<img src="assets/images/qa.png" alt="1"style={{width: "40%"}}/>
+</div>
+
+</div>
+</form>
+</div>
+
+</div>
+</section>
+<section class="about3" id="">
+
+<div class="max-width2" >
+<div class="cardview">
+<form>
+<div class="about-content">
+<div class=" left">
+<img src="assets/images/build.png" alt="1"style={{width: "40%"}}/>
+</div>
+
+<div class=" right">
+<div class="blog-text">How long does it take to build a website?</div>
+<h3><span>Genies and magic lamps are a thing of fairytales. But it is agreed that even a genie can not give you a top-notch website within hours. Usually, it takes time to build a website, depending on the requirements of the client. If you have come across a meticulous team of website developers like ShellCode Solutions, chances are that your product will be delivered to your doorstep in perfect time. However, here we ponder upon the time it takes to build a website.
+</span></h3>
+<a href="/build">Learn More</a>
+</div>
+
+</div>
+</form>
+</div>
+</div>
+</section>
+
+<section class="about3" id="">
+<div class="max-width2" >
+{/* <!-- <h2 class="title">About me</h2> --> */}
+<div class="cardview">
+<form>
+<div class="about-content">
+
+<div class=" right">
+<div class="blog-text">Why a website revamp is more important in 2021 than ever</div>
+<h3><span>With the world continually shifting towards a "new normal" post the pandemic, more and more businesses are shifting towards the online platform. There have been changes in consumer behavior and attitude towards businesses. In such perilous times when more and more users have been spending more time on the screen, one does not have to think twice before deciding to revamp their existing website. In 2021, a website redesign is not only recommended. It is inevitable.
+</span></h3>
+<a href="/revamp">Learn More</a>
+</div>
+<div class=" left">
+<img src="assets/images/revamp.png" alt="1"style={{width: "50%"}}/>
+</div>
+
+</div>
+</form>
+</div>
+
+</div>
+</section>
+<section class="about3" id="">
+
+<div class="max-width2" >
+<div class="cardview">
+<form>
+<div class="about-content">
+<div class=" left">
+<img src="assets/images/social.png" alt="1"style={{width: "40%"}}/>
+</div>
+
+<div class=" right">
+<div class="blog-text">How to find the best Social Media Marketing Agency in Mumbai</div>
+<h3><span>Many businesses may feel overwhelmed when faced with the decision of choosing the correct Social Media Marketing Agency for them. This choice is an important one since these agencies can be a valuable resource for business. So if you are one of them and are wondering about what tactics to use, we are here for you. Here is a step-by-step guide to finding the best Social Media Marketing Agency in Mumbai.
+</span></h3>
+<a href="/socialmedia">Learn More</a>
+</div>
+
+</div>
+</form>
+</div>
+</div>
+</section>
+<section class="about3" id="">
+<div class="max-width2" >
+{/* <!-- <h2 class="title">About me</h2> --> */}
+<div class="cardview">
+<form>
+<div class="about-content">
+
+<div class=" right">
+<div class="blog-text">Why choose Firebase over other Cloud Platforms</div>
+<h3><span>If you are looking for the most appropriate Cloud platform, Firebase is here for you. Firebase is a software development platform that provides Backend-as-a-Service solutions both for mobile and web applications. BaaS solutions allow for eliminating the need to manage backend databases and obtaining corresponding hardware. One can plug them into the apps through APIs. Firebase offers seven services that cover all the backend technologies of an app. Firebase integrates platforms like Android, iOS, Web, etc. Here’s why you should choose Firebase over other Cloud platforms. It has its perks.
+</span></h3>
+<a href="/cloud">Learn More</a>
+</div>
+<div class=" left">
+<img src="assets/images/cloud.png" alt="1"style={{width: "40%"}}/>
+</div>
+
+</div>
+</form>
+</div>
+
+</div>
+</section>
 
 <section class="about6" id="">
 

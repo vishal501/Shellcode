@@ -31,13 +31,18 @@ import Android from './Technology/Frontend/Android';
 import Flutter from './Technology/Frontend/Flutter';
 import Xamarin from './Technology/Frontend/Xamarin';
 
+import Cloud from './Blog/Cloud';
+import SocialMedia from './Blog/SocialMedia';
+import Revamp from './Blog/Revamp';
+import Build from './Blog/Build';
+import Hiring from './Blog/Hiring';
 import { BrowserRouter as Router, Route, Link, NavLink, Switch, Redirect} from "react-router-dom";
 
 function App() {
  
   return (
     <>
-    {/* <Particle/> */}
+    <Particle/>
     <Router>
       
       <Navbar/>
@@ -71,6 +76,12 @@ function App() {
         <Route path="/android" component={Android} exact/>
         <Route path="/flutter" component={Flutter} exact/>
         <Route path="/xamarin" component={Xamarin} exact/>
+
+        <Route path="/cloud" component={Cloud} exact/>
+        <Route path="/socialmedia" component={SocialMedia} exact/>
+        <Route path="/revamp" component={Revamp} exact/>
+        <Route path="/build" component={Build} exact/>
+        <Route path="/beforehiring" component={Hiring} exact/>
 
 
 
