@@ -57,11 +57,11 @@ const Home = () => {
 const [data, setData] = useState([]);
 const carousel = useRef(null);
 
-useEffect(() => {
-  fetch('http://localhost:3000/static/users.json')
-    .then((response) => response.json())
-    .then(setData);
-}, []);
+// useEffect(() => {
+//   fetch('http://localhost:3000/static/users.json')
+//     .then((response) => response.json())
+//     .then(setData);
+// }, []);
 
 const handleLeftClick = (e) => {
   e.preventDefault();
@@ -74,7 +74,7 @@ const handleRightClick = (e) => {
   carousel.current.scrollLeft += carousel.current.offsetWidth;
 };
 
-if (!data || !data.length) return null;
+// if (!data || !data.length) return null;
 
 // slider end
 
@@ -270,7 +270,7 @@ return(
       <div className="carousel" ref={carousel}> 
       <div className="item">
                   <div className="box">
-                  <img src="https://cdn-icons.flaticon.com/png/512/1144/premium/1144709.png?token=exp=1641993062~hmac=1de5d378fe57416845ddc81607e369b3" style={{float: "left"}}/>
+                  <img src="assets/images/users.png" style={{float: "left"}}/>
                   <h4 className="name">&emsp;Mayur Honnmane</h4>
                   <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
                   <br/><br/><br/>
@@ -283,7 +283,7 @@ return(
               </div>
               <div className="item">
                   <div className="box">
-                  <img src="https://cdn-icons.flaticon.com/png/512/1144/premium/1144709.png?token=exp=1641993062~hmac=1de5d378fe57416845ddc81607e369b3"  style={{float: "left"}}/>
+                  <img src="assets/images/users.png"  style={{float: "left"}}/>
                   <h4 className="name">&emsp;Akash 1811 Yadav</h4>
                   <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
                   <br/><br/><br/>
@@ -296,7 +296,7 @@ return(
               </div>
               <div className="item">
                   <div className="box">
-                  <img src="https://cdn-icons.flaticon.com/png/512/1144/premium/1144709.png?token=exp=1641993062~hmac=1de5d378fe57416845ddc81607e369b3" style={{float: "left"}}/>
+                  <img src="assets/images/users.png" style={{float: "left"}}/>
                   <h4 className="name">&emsp;18- Karan Joshi</h4>
                   <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
                   <br/><br/><br/>
@@ -309,7 +309,7 @@ return(
               </div>
               <div className="item">
                   <div className="box">
-                  <img src="https://cdn-icons.flaticon.com/png/512/1144/premium/1144709.png?token=exp=1641993062~hmac=1de5d378fe57416845ddc81607e369b3" style={{float: "left"}}/>
+                  <img src="assets/images/users.png" style={{float: "left"}}/>
                   <h4 className="name">&emsp;melvin mathews</h4>
                   <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
                   <br/><br/><br/>
@@ -322,7 +322,7 @@ return(
               </div>
               <div className="item">
                   <div className="box">
-                  <img src="https://cdn-icons.flaticon.com/png/512/1144/premium/1144709.png?token=exp=1641993062~hmac=1de5d378fe57416845ddc81607e369b3" style={{float: "left"}}/>
+                  <img src="assets/images/users.png" style={{float: "left"}}/>
                   <h4 className="name">&emsp;IndraNeel Roy</h4>
                   <div className="stars"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i></i></i></i></i>
                   <br/><br/><br/>
