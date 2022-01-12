@@ -1,7 +1,7 @@
 // import React from 'react';
 import React, { useEffect, useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
-import Slider from './Slider';
+// import Slider from './Slider';
 // import $ from 'jquery';
 
 const Result = () => {
