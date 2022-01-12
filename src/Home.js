@@ -265,7 +265,7 @@ return(
 <div class="max-width">
 <h2 class="title">What Our Clients S<span>ay </span></h2>
 <h3> They Love Our Service</h3>
-<div className="container">
+<div className="container2">
       
       <div className="carousel" ref={carousel}> 
         {data.map((item) => {
