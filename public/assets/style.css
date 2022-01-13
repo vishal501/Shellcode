@@ -1887,6 +1887,7 @@ margin-bottom: 2vmin;
 
 
             .App {
+                padding-bottom: 10vmin;
                 font-family: sans-serif;
                 display: flex;
                 align-items: center;

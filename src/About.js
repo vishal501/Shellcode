@@ -116,8 +116,8 @@ const About = () => {
                 
                 <img src="assets/images/VitusRodrigo.png" alt=""/>
                 
-                <h4>Vitus Rodrigo <br/><span>(Co - Founder & Chief <br/>Opertional Officer)</span></h4>
-                {/* <a href="#teams">Bio</a> */}
+                <h4>Vitus Rodrigo <br/><span>(Chief Operating Officer)</span></h4>
+                
                 
                 </div>
                 
@@ -125,30 +125,7 @@ const About = () => {
                 </div>
 
                 </TabPanel>
-                <TabPanel value={value} index={1}>
-                <div class="tab-sec">
-                <div class="image-tab">
-                
-                <div class="left">
-                <img src="assets/images/white.png" alt=""/>
-                
-                <h4>Shivam <br/>Kumar Verma</h4>
-                <a href="#teams">Bio</a>
-                
-                </div>
-                
-                
-                <div class="right">
-                <img src="assets/images/white.png" alt=""/>
-                
-                <h4>Shivam <br/>Kumar Verma</h4>
-                <a href="#teams">Bio</a>
-                
-                </div>
-                
-                </div>
-                </div>
-                </TabPanel>
+               
                 
             </div>
 

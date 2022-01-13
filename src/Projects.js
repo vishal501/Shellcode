@@ -319,9 +319,9 @@ const Projects = () => {
       </div>
 
 
-<div class="tab-heading1">
+{/* <div class="tab-heading1">
                 
-                {/* <AppBar position="static"> */}
+              
                     <Tabs value={value} onChange={handleChange} variant="scrollable"
           scrollButtons="auto" classes={{indicator: classes.customStyleOnActiveTab}}
             aria-label="some text" class="tabs1">
@@ -333,7 +333,7 @@ const Projects = () => {
                         <Tab label={<span className={ value === 5 ? classes.activeTab : classes.customStyleOnTab}>UI UX</span>}/>
                         
                     </Tabs>
-                {/* </AppBar> */}
+               
 <TabPanel value={value} index={0} >
 <div class="row1">
 <img src="assets/images/sample.jpeg" alt="1"/>
@@ -361,23 +361,7 @@ const Projects = () => {
                 </div>
                 </TabPanel>
                 <TabPanel value={value} index={2}>
-                {/* <div class="tab-sec">
-                <div class="image-tab">
-                <div class="left">
-                <img src="assets/images/white.png" alt=""/>
-                <p>Creative <br/>Kumar Verma</p>
-                <a href="#teams">Bio</a>
-                </div>
-                <div class="right">
-                <img src="assets/images/white.png" alt=""/>
-                
-                <p>Creative <br/>Kumar Verma</p>
-                <a href="#teams">Bio</a>
-                
-                </div>
-                
-                </div>
-                </div> */}
+               
                 <div class="uiux">
                 <h3>We will realize your dream into reality!</h3>
                 <p>ShellCode Solutions, the best Website Development Company in Mumbai, is here for your every need. We create modern and sophisticated websites with engaging UI that keeps your consumers engaged and hooked. Our services come at pocket-friendly prices and are customizable as per your requirements. Ever heard a deal sound so good? Then what are you waiting for?</p>
@@ -408,7 +392,7 @@ const Projects = () => {
                 
                 <div class="right">
                 <img src="assets/images/white.png" alt=""/>
-                {/* <div class="image-con"> */}
+                
                 <p>Marketing <br/>Kumar Verma</p>
                 <a href="#teams">Bio</a>
                 
@@ -432,7 +416,7 @@ const Projects = () => {
                 
                 <div class="right">
                 <img src="assets/images/white.png" alt=""/>
-                {/* <div class="image-con"> */}
+                
                 <p>Developers <br/>Kumar Verma</p>
                 <a href="#teams">Bio</a>
                 
@@ -457,7 +441,7 @@ const Projects = () => {
                 <p>We understand why your platform needs a responsive UI and UX. To make sure that you only get the best for yourself, we stay and offer one year of technical support and maintenance. We jump upon any chance to improve the Interface we have designed and keep your platform updated as and when it needs improvement.</p>
                 </div>
                 </TabPanel>
-            </div>
+            </div> */}
 
 
 
