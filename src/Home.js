@@ -268,7 +268,7 @@ return(
 <div className="container2">
       
       <div className="carousel" ref={carousel}> 
-      <div className="item">
+      {/* <div className="item">
                   <div className="box">
                   <img src="assets/images/users.png" style={{float: "left"}}/>
                   <h4 className="name">&emsp;Mayur Honnmane</h4>
@@ -280,7 +280,7 @@ return(
                   
                   </div>
                   
-              </div>
+              </div> */}
               <div className="item">
                   <div className="box">
                   <img src="assets/images/users.png"  style={{float: "left"}}/>

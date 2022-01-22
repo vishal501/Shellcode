@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             {/* <div className="circle"> */}
-            <a href="\" class="logoind"><img src = "assets/images/shellcode.jpg"/></a> 
+            <a href="\" class="logoind"><img src = "assets/images/logos.jpeg"/></a> 
             {/* </div> */}
             <ul className={isMobile ? "nav-links-mobile" : "nav-links"}
             onClick={() => setIsMobile(false)}>

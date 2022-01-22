@@ -87,47 +87,7 @@ const About = () => {
 </section>
 
 
-            <div class="tab-box">
-                <h1>Meet Our Founders</h1>
-                {/* <AppBar position="static"> */}
-                    <Tabs value={value} onChange={handleChange} variant="scrollable"
-          scrollButtons="auto" classes={{indicator: classes.customStyleOnActiveTab}}
-            aria-label="some text">
-              <Tab label={<span className={ value === 0 ? classes.activeTab : classes.customStyleOnTab}>Leadership</span>}/>
-                        {/* <Tab label={<span className={ value === 1 ? classes.activeTab : classes.customStyleOnTab}>Accounts</span>}/> */}
-                        {/* <Tab label={<span className={ value === 2 ? classes.activeTab : classes.customStyleOnTab}>Creative</span>}/> */}
-                        {/* <Tab label={<span className={ value === 3 ? classes.activeTab : classes.customStyleOnTab}>Marketing</span>}/> */}
-                        {/* <Tab label={<span className={ value === 4 ? classes.activeTab : classes.customStyleOnTab}>Developers</span>}/> */}
-                    </Tabs>
-                {/* </AppBar> */}
-                <TabPanel value={value} index={0} >
-                <div class="tab-sec">
-                <div class="image-tab">
-                
-                <div class="left">
-                <img src="assets/images/HarshalAdarkar.jpg" alt=""/>
-                <h4>Harshal Adarkar <br/><span>(Founder & Director)</span></h4>
-                {/* <a href="#teams">Bio</a> */}
-                
-                </div>
-                
-                
-                <div class="right">
-                
-                <img src="assets/images/VitusRodrigo.png" alt=""/>
-                
-                <h4>Vitus Rodrigo <br/><span>(Chief Operating Officer)</span></h4>
-                
-                
-                </div>
-                
-                </div>
-                </div>
-
-                </TabPanel>
-               
-                
-            </div>
+            
 
 
 

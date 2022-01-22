@@ -8,20 +8,20 @@ const Footer = () => {
 <div class="row">
 <div class="footer-col">
 <div className="circl">
-<a href="/"><img src="assets/images/shellcode.jpg" alt=""/></a>
+<a href="/"><img src="assets/images/logos.jpeg" alt=""/></a>
 </div>
 <ul>
 <li><a href="#"><br/>About ShellCode</a></li>
 
 </ul>
 </div>
-<div class="footer-col">
+{/* <div class="footer-col">
 <h4>Contact</h4>
 <ul>
 <li><a href="#">+91 8097355922</a></li>
 <li><a>biz@shellcode.co.in</a></li>
 </ul>
-</div>
+</div> */}
 <div class="footer-col">
 <h4>Explore</h4>
 <ul>
@@ -46,10 +46,10 @@ const Footer = () => {
 </div>
 
 </footer>
-{/* <div class="black-footer">
+<div class="black-footer">
     <div class="copyright">Copyright © 2020 Shellcode Solutions Technologies, All Rights Reserved</div>
     <h4 class="hyperlink">Designed and Developed by <a href="https://www.shellcode.co.in">Shellcode Solutions.com</a></h4>
-</div> */}
+</div>
 </>
     );
 }
