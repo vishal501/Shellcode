@@ -437,4 +437,3 @@ const {children, value, index}=props;
     </div>)
 }
 export default About;
-
